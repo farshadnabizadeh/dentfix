@@ -3,6 +3,7 @@ import Image from 'next/image';
 import LogoImg from '@/assets/png/logo.png'
 import ThoothImg from '@/assets/png/icon.png'
 import ArrowToRight from '@/assets/png/Icon akar-arrow-right.png'
+import Girl from '@/assets/png/image.png';
 const Hero = () => {
     return (
         <section className='w-full h-[540px] bg-gradient-to-r from-[#114B9B] to-[#002457] relative'>
@@ -39,8 +40,16 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-                <div className='w-[50%] h-[540px] absolute top-0 right-0 border-2 border-[red] z-30'>
-
+                <div className='w-[45%] h-[540px] absolute top-0 right-0 z-30 border-2 border-[red]'>
+                    <div className='w-full h-full flex justify-start items-center'>
+                        <div className='w-[60%] h-[70%] relative'>
+                            <div className='w-full h-full absolute z-0 top-0 left-0'>
+                                <div className='w-full h-full relative'>
+                                    <Image src={Girl} alt='Girl' fill/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
