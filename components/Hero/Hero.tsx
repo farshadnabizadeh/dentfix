@@ -16,7 +16,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className='w-full absolute z-0'>
-                    <div className='w-[280px] 2xl:w-[320px] absolute top-[90px] right-[30px] 2xl:top-[47px] 2xl:right-[79px]'>
+                    <div className='w-[290px] 2xl:w-[320px] absolute top-[90px] right-[25px] 2xl:top-[47px] 2xl:right-[79px]'>
                         <Image src={ThoothImg} alt='dentfix' />
                     </div>
                 </div>
@@ -34,6 +34,9 @@ const Hero = () => {
                             <div className='w-full h-full absolute z-0 top-0 left-0'>
                                 <div className='w-full h-full relative'>
                                     <Image src={Girl} alt='Girl' fill />
+                                </div>
+                                <div className='w-[130px] h-[140px] top-[30px] 2xl:top-[60px] right-0 absolute'>
+                                    <Image src={Rosette} alt='Rosette' fill/>
                                 </div>
                             </div>
                         </div>
