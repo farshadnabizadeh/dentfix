@@ -1,12 +1,13 @@
 import React from 'react';
 import Image from 'next/image';
-import LogoImg from '@/assets/png/logo.png'
-import ThoothImg from '@/assets/png/icon.png'
-import ArrowToRight from '@/assets/png/Icon akar-arrow-right.png'
+import LogoImg from '@/assets/png/logo.png';
+import ThoothImg from '@/assets/png/icon.png';
+import ArrowToRight from '@/assets/png/Icon akar-arrow-right.png';
 import Girl from '@/assets/png/image.png';
+import HeroShape from '@/assets/png/HeroShape.png';
 const Hero = () => {
     return (
-        <section className='w-full h-[540px] bg-gradient-to-r from-[#114B9B] to-[#002457] relative'>
+        <section className='w-full h-[640px] bg-gradient-to-r from-[#114B9B] to-[#002457] relative overflow-hidden'>
             <div className='w-full h-full absolute z-0'>
                 <div className='w-full absolute left-[240px] top-[28px] z-0'>
                     <div className='w-[150px] h-[35px] relative '>
@@ -52,8 +53,10 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-full h-full absolute z-30'>
-
+            <div className='w-[110%] h-[400px] -left-[30px] -bottom-[20px] absolute z-30'>
+                <div className='w-full h-full relative'>
+                    <Image src={HeroShape} alt='Hero Shape' fill/>
+                </div>
             </div>
         </section>
     );
