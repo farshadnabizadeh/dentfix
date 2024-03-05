@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import useWindowDimensions from '@/hooks/useWindowDimensions';
 import Hero from '@/components/Hero/Hero';
 import Brands from '@/components/Brand/Brands';
+import ContactUs from '@/components/ContactUs/ContactUs';
 const Index = () => {
   const [isClient, setIsClient] = useState(false);
   const { height, width } = useWindowDimensions();
@@ -28,7 +29,7 @@ const Index = () => {
                 <Brands />
               </div>
               <div className='w-[50%]'>
-                
+                <ContactUs/>
               </div>
             </div>
           </div>
