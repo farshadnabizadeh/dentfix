@@ -25,20 +25,6 @@ const Hero = () => {
                         <div className='text-white text-[40px] font-bold'>A Hollywood Smile!</div>
                         <div className='text-white text-[26px]'>We are dedicated to helping you <span className='font-bold'>achieve</span></div>
                         <div className='text-white text-[26px]'>a beautiful smile that radiates <span className='font-bold'>confidence.</span></div>
-                        <div className='w-full h-[48px] mt-[80px] relative'>
-                            <div className='w-[330px] h-full bg-gradient-to-r from-[#FF9D17] to-[#FF7F00]  rounded-[24px] cursor-pointer'>
-                                <div className='absolute w-[48px] h-[48px] bg-[#FF7F00] border-2 border-[#114B9B] rounded-full z-10'>
-                                    <div className='w-full h-full flex items-center justify-center relative'>
-                                        <div className='w-[14px] h-[13px] relative'>
-                                            <Image src={ArrowToRight} alt='dentfix' fill />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='w-[330px] h-full absolute z-0 flex justify-center items-center'>
-                                    <span className='text-white font-bold text-[18px] translate-x-4'>Schedule Your Free Consult</span>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div className='w-[45%] h-[540px] absolute top-0 right-0 z-30'>
@@ -54,8 +40,22 @@ const Hero = () => {
                 </div>
             </div>
             <div className='w-[110%] h-[500px] -left-[30px] -bottom-[20px] absolute z-30'>
-                <div className='w-full h-full relative'>
-                    <Image src={HeroShape} alt='Hero Shape' fill/>
+                <div className='w-full h-[48px] left-[270px] top-[240px] absolute z-40'>
+                    <div className='w-[330px] h-full bg-gradient-to-r from-[#FF9D17] to-[#FF7F00]  rounded-[24px] cursor-pointer'>
+                        <div className='absolute w-[48px] h-[48px] bg-[#FF7F00] border-2 border-[#114B9B] rounded-full z-10'>
+                            <div className='w-full h-full flex items-center justify-center relative'>
+                                <div className='w-[14px] h-[13px] relative'>
+                                    <Image src={ArrowToRight} alt='dentfix' fill />
+                                </div>
+                            </div>
+                        </div>
+                        <div className='w-[330px] h-full absolute z-0 flex justify-center items-center'>
+                            <span className='text-white font-bold text-[18px] translate-x-4'>Schedule Your Free Consult</span>
+                        </div>
+                    </div>
+                </div>
+                <div className='w-full h-full relative border-2 border-[red]'>
+                    <Image src={HeroShape} alt='Hero Shape' fill />
                 </div>
             </div>
         </section>
