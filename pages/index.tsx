@@ -15,7 +15,7 @@ const Index = () => {
   }
 
   return (
-    <main className='w-full min-h-screen bg-white'>
+    <main className='w-full min-h-screen bg-white overflow-x-hidden'>
       <Hero />
     </main>
   );
