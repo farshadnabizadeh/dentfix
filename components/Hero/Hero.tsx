@@ -15,7 +15,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className='w-full absolute z-0'>
-                    <div className='w-[320px] h-[417px] absolute top-[47px] right-[79px]'>
+                    <div className='w-[280px] 2xl:w-[320px] absolute top-[90px] right-[30px] 2xl:top-[47px] 2xl:right-[79px]'>
                         <Image src={ThoothImg} alt='dentfix' />
                     </div>
                 </div>
@@ -29,7 +29,7 @@ const Hero = () => {
                 </div>
                 <div className='w-[800px] h-[540px] absolute top-[120px] right-0 z-30'>
                     <div className='w-full h-full flex justify-start items-center'>
-                        <div className='w-[601px] h-[586px] relative'>
+                        <div className='translate-x-40 translate-y-7 2xl:translate-y-0 2xl:translate-x-0 w-[501px] h-[486px] 2xl:w-[601px] 2xl:h-[586px] relative'>
                             <div className='w-full h-full absolute z-0 top-0 left-0'>
                                 <div className='w-full h-full relative'>
                                     <Image src={Girl} alt='Girl' fill />
