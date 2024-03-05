@@ -7,7 +7,7 @@ import Girl from '@/assets/png/image.png';
 const Hero = () => {
     return (
         <section className='w-full h-[540px] bg-gradient-to-r from-[#114B9B] to-[#002457] relative'>
-            <div className='w-full relative'>
+            <div className='w-full h-full absolute z-0'>
                 <div className='w-full absolute left-[240px] top-[28px] z-0'>
                     <div className='w-[150px] h-[35px] relative '>
                         <Image src={LogoImg} alt='dentfix' fill />
@@ -45,12 +45,15 @@ const Hero = () => {
                         <div className='w-[65%] h-[70%] relative'>
                             <div className='w-full h-full absolute z-0 top-0 left-0'>
                                 <div className='w-full h-full relative'>
-                                    <Image src={Girl} alt='Girl' fill/>
+                                    <Image src={Girl} alt='Girl' fill />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='w-full h-full absolute z-30'>
+
             </div>
         </section>
     );
