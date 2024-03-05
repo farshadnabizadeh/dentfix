@@ -43,7 +43,7 @@ const Hero = () => {
                 </div>
                 <div className='w-[45%] h-[540px] absolute top-0 right-0 z-30'>
                     <div className='w-full h-full flex justify-start items-center'>
-                        <div className='w-[65%] h-[70%] relative'>
+                        <div className='w-[70%] h-[80%] relative'>
                             <div className='w-full h-full absolute z-0 top-0 left-0'>
                                 <div className='w-full h-full relative'>
                                     <Image src={Girl} alt='Girl' fill />
