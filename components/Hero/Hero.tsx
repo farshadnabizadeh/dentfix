@@ -53,7 +53,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-[110%] h-[400px] -left-[30px] -bottom-[20px] absolute z-30'>
+            <div className='w-[110%] h-[500px] -left-[30px] -bottom-[20px] absolute z-30'>
                 <div className='w-full h-full relative'>
                     <Image src={HeroShape} alt='Hero Shape' fill/>
                 </div>
