@@ -39,6 +39,9 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
+                <div className='w-[50%] h-[540px] absolute top-0 right-0 border-2 border-[red] z-30'>
+
+                </div>
             </div>
         </section>
     );
