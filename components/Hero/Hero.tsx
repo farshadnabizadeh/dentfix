@@ -21,7 +21,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className='w-full absolute z-0'>
-                    <div className='absolute top-[140px] left-[240px]'>
+                    <div className='absolute top-[190px] left-[240px]'>
                         <div className='text-white text-[35px] font-semibold'>Boost Your Confidence with</div>
                         <div className='text-white text-[40px] font-bold'>A Hollywood Smile!</div>
                         <div className='text-white text-[26px]'>We are dedicated to helping you <span className='font-bold'>achieve</span></div>
