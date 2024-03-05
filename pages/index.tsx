@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import useWindowDimensions from '@/hooks/useWindowDimensions';
 import Hero from '@/components/Hero/Hero';
-import ContactUs from '@/components/ContactUs/ContactUs';
+import Brands from '@/components/Brand/Brands';
 const Index = () => {
   const [isClient, setIsClient] = useState(false);
   const { height, width } = useWindowDimensions();
@@ -23,8 +23,13 @@ const Index = () => {
       <section className='w-full absolute z-10 top-[850px] '>
         <div className='w-full flex justify-center'>
           <div className='w-full flex justify-center'>
-            <div className='w-[1440px] border-2 border-[red]'>
-
+            <div className='w-[1440px] flex justify-center'>
+              <div className='w-[50%]'>
+                <Brands />
+              </div>
+              <div className='w-[50%]'>
+                
+              </div>
             </div>
           </div>
         </div>
