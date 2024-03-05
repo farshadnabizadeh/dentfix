@@ -5,6 +5,7 @@ import ThoothImg from '@/assets/png/icon.png';
 import ArrowToRight from '@/assets/png/Icon akar-arrow-right.png';
 import Girl from '@/assets/png/image.png';
 import HeroShape from '@/assets/png/HeroShape.png';
+import Rosette from '@/assets/png/rosette.png';
 const Hero = () => {
     return (
         <section className='w-full h-[900px] bg-gradient-to-r from-[#114B9B] to-[#002457] relative overflow-hidden'>
