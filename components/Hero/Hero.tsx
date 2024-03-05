@@ -36,7 +36,7 @@ const Hero = () => {
                                     <Image src={Girl} alt='Girl' fill />
                                 </div>
                                 <div className='w-[130px] h-[140px] top-[30px] 2xl:top-[60px] right-0 absolute'>
-                                    <Image src={Rosette} alt='Rosette' fill/>
+                                    <Image src={Rosette} alt='Rosette' fill />
                                 </div>
                             </div>
                         </div>
