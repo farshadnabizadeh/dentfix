@@ -15,7 +15,7 @@ const Index = () => {
   }
 
   return (
-    <main className='w-full min-h-screen'>
+    <main className='w-full min-h-screen bg-white'>
       width: {width} ~ height: {height}
     </main>
   );
