@@ -14,7 +14,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className='w-full absolute z-0'>
-                    <div className='w-[300px] absolute top-[47px] right-[79px]'>
+                    <div className='w-[270px] absolute top-[47px] right-[79px]'>
                         <Image src={ThoothImg} alt='dentfix' />
                     </div>
                 </div>
