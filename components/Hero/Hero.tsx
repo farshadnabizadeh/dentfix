@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import LogoImg from '@/assets/png/logo.png'
 import ThoothImg from '@/assets/png/icon.png'
+import ArrowToRight from '@/assets/png/Icon akar-arrow-right.png'
 const Hero = () => {
     return (
         <section className='w-full h-[540px] bg-gradient-to-r from-[#114B9B] to-[#002457] relative'>
@@ -23,10 +24,18 @@ const Hero = () => {
                         <div className='text-white text-[26px]'>We are dedicated to helping you <span className='font-bold'>achieve</span></div>
                         <div className='text-white text-[26px]'>a beautiful smile that radiates <span className='font-bold'>confidence.</span></div>
                         <div className='w-full h-[48px] mt-[80px] relative'>
-                            <div className='w-[330px] h-full bg-gradient-to-r from-[#FF9D17] to-[#FF7F00]  rounded-[24px]'>
-                                <div className='absolute w-[48px] h-[48px] bg-[#FF7F00] border-2 border-[#114B9B] rounded-full'></div>
+                            <div className='w-[330px] h-full bg-gradient-to-r from-[#FF9D17] to-[#FF7F00]  rounded-[24px] cursor-pointer'>
+                                <div className='absolute w-[48px] h-[48px] bg-[#FF7F00] border-2 border-[#114B9B] rounded-full z-10'>
+                                    <div className='w-full h-full flex items-center justify-center relative'>
+                                        <div className='w-[14px] h-[13px] relative'>
+                                            <Image src={ArrowToRight} alt='dentfix' fill />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='w-[330px] h-full absolute z-0 flex justify-center items-center'>
+                                    <span className='text-white font-bold text-[18px] translate-x-4'>Schedule Your Free Consult</span>
+                                </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
