@@ -25,14 +25,14 @@ interface SliderProps {
 const Slider2: FC<SliderProps> = (SliderProps) => {
     const SLIDER_IMAGES = [
         {
-            img: Baner1,
+            img: Baner2,
             name: 'Olga R.',
             signature: 'Hollywood Smile Veneers',
             content: `I had the honor of having the friendliest, most compassionate, professional people I have ever met to assist me with my dental issues. I might be the only person on earth who who plans to return to Dentfix just to see the staff.
             The service was just as awesome and my new smile is evenore fabulous than I anticipated.`
         },
         {
-            img: Baner2,
+            img: Baner1,
             name: 'Vanda D.',
             signature: 'Hollywood Smile Zirconium',
             content: `Went to Dentfix Oct 23 for start of dental work .
@@ -41,14 +41,14 @@ const Slider2: FC<SliderProps> = (SliderProps) => {
             thank you.`
         },
         {
-            img: Baner1,
+            img: Baner2,
             name: 'Olga R.',
             signature: 'Hollywood Smile Veneers',
             content: `I had the honor of having the friendliest, most compassionate, professional people I have ever met to assist me with my dental issues. I might be the only person on earth who who plans to return to Dentfix just to see the staff.
             The service was just as awesome and my new smile is evenore fabulous than I anticipated.`
         },
         {
-            img: Baner2,
+            img: Baner1,
             name: 'Vanda D.',
             signature: 'Hollywood Smile Zirconium',
             content: `Went to Dentfix Oct 23 for start of dental work .
@@ -84,7 +84,11 @@ const Slider2: FC<SliderProps> = (SliderProps) => {
                         {SLIDER_IMAGES?.map((image: any, index: any) => (
                             <SwiperSlide key={index}>
                                 <div className='w-full border-2 border-[red]'>
-                                    
+                                    <div className='w-[665px] h-[211px] flex'>
+                                        <div className='w-[211px] h-[211px] relative'>
+                                            <Image src={image.img} alt='dentfix' fill/>
+                                        </div>
+                                    </div>
                                 </div>
                             </SwiperSlide>
                         ))}
