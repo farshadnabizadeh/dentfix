@@ -4,6 +4,9 @@ import Hero from '@/components/Hero/Hero';
 import Brands from '@/components/Brand/Brands';
 import ContactUs from '@/components/ContactUs/ContactUs';
 import Wallpaper from '@/components/Wallpaper/Wallpaper';
+import Shape from '@/assets/png/shape.png';
+import Image from 'next/image';
+import Features from '@/components/Features/Features';
 const Index = () => {
   const [isClient, setIsClient] = useState(false);
   const { height, width } = useWindowDimensions();
@@ -41,6 +44,18 @@ const Index = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className='w-full flex justify-center'>
+          <div className='w-[1440px]'>
+            <div className='w-[1380px] h-[350px] bg-[#D5EFFF] rounded-[25px] mt-[70px]'>
+              <Features />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className='w-full h-[1285px] absolute top-[1300px] z-0'>
+        <div className='w-full h-full relative'>
+          <Image src={Shape} alt="dentfix" fill />
         </div>
       </section>
     </main>
