@@ -8,6 +8,7 @@ import Shape from '@/assets/png/shape.png';
 import Image from 'next/image';
 import Features from '@/components/Features/Features';
 import Slider from '@/components/Slider/Slider';
+import Button from '@/components/Button/Button';
 const Index = () => {
   const [isClient, setIsClient] = useState(false);
   const { height, width } = useWindowDimensions();
@@ -59,6 +60,17 @@ const Index = () => {
               <div className='w-full text-center text-white text-[34px] font-bold mt-[70px]'>Before & After</div>
               <div className='w-full'>
                 <Slider left={'left-0'} right={'right-0'}/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='w-full flex justify-center'>
+          <div className='w-[1440px]'>
+            <div className='w-[1380px] translate-y-[620px]'>
+              <div className='w-full flex justify-center'>
+                <div className='w-[500px] h-[48px] relative'>
+                  <Button Title={'Start My Journey Today!'}/>
+                </div>
               </div>
             </div>
           </div>
