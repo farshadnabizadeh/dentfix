@@ -18,16 +18,36 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.swiper-pagination {
+  position: relative !important;
+  height: 40px !important;
+  margin-top: 10px;
+  transform: translateY(15px) !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: aliceblue !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #6C33A5 !important;
+}
+
+.swiper-button-next-custom {
+  transform: translateX(-20px);
+}
+
+.swiper-button-prev-custom {
+  transform: translateX(20px);
 }

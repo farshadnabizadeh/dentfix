@@ -7,6 +7,7 @@ import Wallpaper from '@/components/Wallpaper/Wallpaper';
 import Shape from '@/assets/png/shape.png';
 import Image from 'next/image';
 import Features from '@/components/Features/Features';
+import Slider from '@/components/Slider/Slider';
 const Index = () => {
   const [isClient, setIsClient] = useState(false);
   const { height, width } = useWindowDimensions();
@@ -52,9 +53,11 @@ const Index = () => {
             </div>
           </div>
         </div>
-        <div className='w-full flex justify-center border-2 border-[red]'>
-          <div className='w-[1440px]'>
-           
+        <div className='w-full flex justify-center'>
+          <div className='w-[1440px] h-[500px]'>
+            <div className='w-[1380px] h-full'>
+              <Slider />
+            </div>
           </div>
         </div>
       </section>
