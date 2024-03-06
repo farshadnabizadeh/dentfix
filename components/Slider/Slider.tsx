@@ -10,6 +10,9 @@ import 'swiper/css/pagination';
 
 import PREVIOUSBTN from '@/assets/png/previousbtn.png'
 import NEXTBTN from '@/assets/png/nextbtn.png'
+import BANER1 from '@/assets/png/Group 17.png';
+import BANER2 from '@/assets/png/Group 18.png';
+import BANER3 from '@/assets/png/Group 108.png';
 interface SliderProps {
     slidesPerView?: number,
     height?: string,
@@ -21,6 +24,17 @@ interface SliderProps {
     SLIDER_IMAGES?: any
 }
 const Slider: FC<SliderProps> = (SliderProps) => {
+    const SLIDER_IMAGES = [
+        {
+            img: BANER1,
+        },
+        {
+            img: BANER2,
+        },
+        {
+            img: BANER3,
+        },
+    ]
     return (
         <div className='w-full h-full relative border-2 border-[red]'>
             <div className={`absolute top-0 ${SliderProps.left} h-full z-30`}>
@@ -34,7 +48,7 @@ const Slider: FC<SliderProps> = (SliderProps) => {
                 </div>
             </div>
             <div className='absolute top-0 left-0 w-full h-full flex justify-center'>
-                <div className='w-[90%] 2xl:w-[93%] h-full'>
+                <div className='w-[80%] 2xl:w-[93%] h-full border-2 border-[#fff]'>
                     <Swiper
                         modules={[Navigation, Pagination]}
                         spaceBetween={50}
@@ -45,43 +59,9 @@ const Slider: FC<SliderProps> = (SliderProps) => {
                         }}
                         pagination
                     >
-                        {SliderProps.SLIDER_IMAGES?.map((image: any, index: any) => (
+                        {SLIDER_IMAGES?.map((image: any, index: any) => (
                             <SwiperSlide key={index}>
-                                <div className={`w-full ${SliderProps.height} relative`}>
-                                    <div className='w-full h-full absolute z-10 bg-[rgba(0,0,0,0.8)]'></div>
-                                    <div className='w-full h-full absolute z-0'>
-                                        <Image src={image.src} alt={image.alt} fill />
-                                    </div>
-                                    <div className='w-full h-[78px] flex justify-center absolute z-20 bottom-0 left-0'>
-                                        <div className='w-[278px] h-full bg-white rounded-t-md relative'>
-                                            <div className='absolute top-0 w-full flex justify-center'>
-                                                <div className='w-[50px] h-[50px] rounded-full border-[2px] -translate-y-[30px] border-[#fff]'>
-                                                    <Image src={image.flag} alt='flag' fill />
-                                                </div>
-                                            </div>
-                                            <div className='w-full text-[16px] flex justify-center mt-[25px]'>
-                                                <span className='text-[#090013] font-bold'>{image.text1}</span>
-                                                <span className='text-[#090013] font-bold mx-1'>{'|'}</span>
-                                                <span className='text-[#090013] font-normal'>{image.text2}</span>
-                                            </div>
-                                            <div className='w-full text-[12px] flex justify-center mt-[2px]'>
-                                                <span className='text-[#090013] font-bold'>{image.text3}</span>
-                                                <span className='text-[#090013] font-bold'>{':'}</span>
-                                                <span className='text-[#090013] font-bold ml-1'>{image.text4}</span>
-                                                <span className='text-[#090013] font-bold mx-1'>{'|'}</span>
-                                                <span className='text-[#090013] font-normal'>{image.date}</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className={`w-full absolute z-40 ${SliderProps.top}`}>
-                                        <div className='w-full flex justify-center'>
-                                            <a href='#' className={`text-white ${SliderProps.fontSize1} font-bold`}><u>Click for</u></a>
-                                        </div>
-                                        <div className='w-full flex justify-center'>
-                                            <div className={`${SliderProps.fontSize2} text-white`}>more before and after photos</div>
-                                        </div>
-                                    </div>
-                                </div>
+
                             </SwiperSlide>
                         ))}
                     </Swiper>
