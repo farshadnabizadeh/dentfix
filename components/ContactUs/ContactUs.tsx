@@ -18,6 +18,12 @@ const ContactUs = () => {
               <div className='w-full h-[50px]'>
                 <input type='text' placeholder='Full Name' className='w-full h-full bg-white rounded-[25px] text-center placeholder:text-[#D8F1FF] placeholder:text-[18px]' />
               </div>
+              <div className='w-full h-[50px] mt-[14px]'>
+                <input type='number' placeholder='Phone' className='w-full  h-full bg-white rounded-[25px] text-center placeholder:text-[#97CFEF] placeholder:text-[18px]' />
+              </div>
+              <div className='w-full h-[50px] mt-[14px]'>
+                <input type='email' placeholder='Email (Opsiyonel)' className='w-full  h-full bg-white rounded-[25px] text-center placeholder:text-[#D8F1FF] placeholder:text-[18px]' />
+              </div>
             </form>
           </div>
         </div>
