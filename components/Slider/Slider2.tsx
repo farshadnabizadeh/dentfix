@@ -74,7 +74,7 @@ const Slider2: FC<SliderProps> = (SliderProps) => {
                     <Swiper
                         modules={[Navigation, Pagination]}
                         spaceBetween={30}
-                        slidesPerView={3}
+                        slidesPerView={2}
                         navigation={{
                             nextEl: '.swiper-button-next-custom',
                             prevEl: '.swiper-button-prev-custom',
@@ -83,8 +83,8 @@ const Slider2: FC<SliderProps> = (SliderProps) => {
                     >
                         {SLIDER_IMAGES?.map((image: any, index: any) => (
                             <SwiperSlide key={index}>
-                                <div className='w-[390px] h-[430px] relative'>
-                                    <Image src={image.img} alt='dentfix' fill />
+                                <div className='w-full border-2 border-[red]'>
+                                    
                                 </div>
                             </SwiperSlide>
                         ))}
