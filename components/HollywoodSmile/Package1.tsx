@@ -51,7 +51,7 @@ const Package1: FC<PackageProps> = ({ data, image, price, labelName, innerHeight
                                                     <div>
                                                         <Image src={Tik} alt='dentfix' />
                                                     </div>
-                                                    <div className='mx-1 text-[12px]'>
+                                                    <div className='mx-1 text-[12px] text-[#000]'>
                                                         {item.content}
                                                     </div>
                                                 </div>
