@@ -41,12 +41,12 @@ const Slider: FC<SliderProps> = (SliderProps) => {
         <div className='w-full h-full relative'>
             <div className={`absolute flex items-center top-0 ${SliderProps.left} h-[462px] z-30`}>
                 <div className="swiper-button-prev-custom flex w-[50px] items-center" role="button">
-                    <Image width={20} src={PREVIOUSBTN} alt="PREVIOUSBTN" />
+                    <Image width={30} src={PREVIOUSBTN} alt="PREVIOUSBTN" />
                 </div>
             </div>
             <div className={`absolute top-0 flex items-center ${SliderProps.right} h-[462px] z-30`}>
                 <div className="swiper-button-next-custom flex w-[50px] items-center justify-end" role="button">
-                    <Image width={20} src={NEXTBTN} alt="NEXTBTN" />
+                    <Image width={30} src={NEXTBTN} alt="NEXTBTN" />
                 </div>
             </div>
             <div className='absolute top-[40px] left-0 w-full h-full flex justify-center'>
