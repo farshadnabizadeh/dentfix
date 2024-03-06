@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import useWindowDimensions from '@/hooks/useWindowDimensions';
-
+import Hero from '@/components/Hero/Hero';
+import Brands from '@/components/Brand/Brands';
+import ContactUs from '@/components/ContactUs/ContactUs';
+import Wallpaper from '@/components/Wallpaper/Wallpaper';
 const Index = () => {
   const [isClient, setIsClient] = useState(false);
   const { height, width } = useWindowDimensions();
@@ -15,9 +18,32 @@ const Index = () => {
   }
 
   return (
-    <div>
-      width: {width} ~ height: {height}
-    </div>
+    <main className='w-full min-h-screen bg-white overflow-x-hidden relative'>
+      <section className='w-full top-0 absolute z-0'>
+        <Hero />
+      </section>
+      <section className='w-full absolute z-10 top-[850px] '>
+        <div className='w-full flex justify-center'>
+          <div className='w-full flex justify-center'>
+            <div className='w-[1440px] flex justify-center'>
+              <div className='w-[50%] relative'>
+                <div className='w-full'>
+                  <Brands />
+                </div>
+                <div className='w-full absolute bottom-0'>
+                  <div className='w-full'>
+                    <Wallpaper />
+                  </div>
+                </div>
+              </div>
+              <div className='w-[50%]'>
+                <ContactUs />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   );
 };
 
