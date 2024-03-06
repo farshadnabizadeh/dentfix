@@ -86,7 +86,10 @@ const Slider2: FC<SliderProps> = (SliderProps) => {
                                 <div className='w-full border-2 border-[red]'>
                                     <div className='w-[665px] h-[211px] flex'>
                                         <div className='w-[211px] h-[211px] relative'>
-                                            <Image src={image.img} alt='dentfix' fill/>
+                                            <Image src={image.img} alt='dentfix' fill />
+                                        </div>
+                                        <div className='h-full'>
+                                            <div className='text-white text-[18px] font-bold px-[15px]'>{image.name}</div>
                                         </div>
                                     </div>
                                 </div>
