@@ -14,7 +14,7 @@ const PossibleDentalTreatments = () => {
             img: Service1,
             content: `Dental veneers are thin custom-made shells that are bonded to the front teeth 
             designed for correcting aesthetic dental issues like chips, gaps or discoloration.`,
-            left:true,
+            left: true,
         },
         {
             name: 'Dental Crowns',
@@ -22,21 +22,21 @@ const PossibleDentalTreatments = () => {
             content: `Dental crowns are tooth-shaped caps that are placed over the entire tooth
             designed to restore broken, weak or worn-down teeth resulting
             in an improved smile.`,
-            left:false,
+            left: false,
         },
         {
             name: 'Composite Bonding',
             img: Service3,
             content: `Composite bonding is a dental technique used to correct many aesthetic
             problems from color to the shape of a tooth or to minimize gaps between teeth.`,
-            left:true,
+            left: true,
         },
         {
             name: 'Dental Implants',
             img: Service4,
             content: `Dental implants serve as durable artificial roots, providing a natural look and
             feel while restoring the function and aesthetics of missing teeth.`,
-            left:false,
+            left: false,
         },
     ]
     return (
@@ -68,26 +68,23 @@ const PossibleDentalTreatments = () => {
                             </div>
                         </div>
                         <div className='w-[750px] mt-[50px] 2xl:mt-[30px] 2xl:w-[790px] top-[100px] absolute z-40'>
-                            <div className='w-full h-[100px] 2xl:h-[125px] flex justify-start'>
-                                <div className='w-[650px] h-full rounded-[10px] bg-[#EDF8FF] border-[#9BD9FF] border-2'>
-                                    <div className='w-full mt-[25px] px-[22px] border-2 border-[red]'></div>
-                                </div>
-                            </div>
-                            <div className='w-full h-[110px] mt-[30px] 2xl:h-[125px] flex justify-end'>
-                                <div className='w-[650px] h-full rounded-[10px] bg-[#EDF8FF] border-[#9BD9FF] border-2'>
-
-                                </div>
-                            </div>
-                            <div className='w-full h-[110px] mt-[30px] 2xl:h-[125px] flex justify-start'>
-                                <div className='w-[650px] h-full rounded-[10px] bg-[#EDF8FF] border-[#9BD9FF] border-2'>
-
-                                </div>
-                            </div>
-                            <div className='w-full h-[110px] mt-[30px] 2xl:h-[125px] flex justify-end'>
-                                <div className='w-[650px] h-full rounded-[10px] bg-[#EDF8FF] border-[#9BD9FF] border-2'>
-
-                                </div>
-                            </div>
+                            {
+                                data.map((item: any, index: any) => (
+                                    <>
+                                        <div key={index} className={`w-full h-[105px] 2xl:h-[125px] flex ${index==0?'mt-[10px]':'mt-[30px]'} ${item.left ? 'justify-start' : 'justify-end'}`}>
+                                            <div className={`w-[650px] h-full rounded-[10px]  bg-[#EDF8FF] border-[#9BD9FF] border-2`}>
+                                                <div className='w-full mt-[10px] px-[22px] flex items-center'>
+                                                    <div><Image src={item.img} alt='dentfix' /></div>
+                                                    <div><span className='text-[#114B9B] text-[22px] font-bold mx-[22px]'>{item.name}</span></div>
+                                                </div>
+                                                <div className='w-full px-[25px] mt-1'>
+                                                    {item.content}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </>
+                                ))
+                            }
                         </div>
                     </div>
                 </div>
