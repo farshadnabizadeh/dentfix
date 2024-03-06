@@ -6,6 +6,7 @@ import ContactUs from '@/components/ContactUs/ContactUs';
 import Wallpaper from '@/components/Wallpaper/Wallpaper';
 import Shape from '@/assets/png/shape.png';
 import Image from 'next/image';
+import Features from '@/components/Features/Features';
 const Index = () => {
   const [isClient, setIsClient] = useState(false);
   const { height, width } = useWindowDimensions();
@@ -47,7 +48,7 @@ const Index = () => {
         <div className='w-full flex justify-center'>
           <div className='w-[1440px]'>
             <div className='w-[1380px] h-[350px] bg-[#D5EFFF] rounded-[25px] mt-[70px]'>
-
+              <Features />
             </div>
           </div>
         </div>
