@@ -32,24 +32,24 @@ const PossibleDentalTreatments = () => {
                                 <div><span className='text-[#114B9B] text-[34px]'>in a</span><span className='text-[#30A1E8] mx-2 text-[34px] font-bold'>Hollywood Smile</span></div>
                             </div>
                         </div>
-                        <div className='w-[750px] 2xl:w-[780px] top-[100px] absolute z-40 border-2 border-[blue]'>
-                            <div className='w-full h-[100px] 2xl:h-[130px] flex justify-start'>
-                                <div className='w-[650px] h-full border-2 border-[red]'>
+                        <div className='w-[750px] mt-[50px] 2xl:mt-[30px] 2xl:w-[790px] top-[100px] absolute z-40 border-2 border-[blue]'>
+                            <div className='w-full h-[100px] 2xl:h-[125px] flex justify-start'>
+                                <div className='w-[650px] h-full rounded-[10px] border-2 border-[red]'>
 
                                 </div>
                             </div>
-                            <div className='w-full h-[110px] mt-[38px] 2xl:h-[130px] flex justify-end'>
-                                <div className='w-[650px] h-full border-2  border-[red]'>
+                            <div className='w-full h-[110px] mt-[38px] 2xl:h-[125px] flex justify-end'>
+                                <div className='w-[650px] h-full rounded-[10px] border-2  border-[red]'>
 
                                 </div>
                             </div>
-                            <div className='w-full h-[110px] mt-[38px] 2xl:h-[130px] flex justify-start'>
-                                <div className='w-[650px] h-full border-2 border-[red]'>
+                            <div className='w-full h-[110px] mt-[38px] 2xl:h-[125px] flex justify-start'>
+                                <div className='w-[650px] h-full rounded-[10px] border-2 border-[red]'>
 
                                 </div>
                             </div>
-                            <div className='w-full h-[110px] mt-[38px] 2xl:h-[130px] flex justify-end'>
-                                <div className='w-[650px] h-full border-2  border-[red]'>
+                            <div className='w-full h-[110px] mt-[38px] 2xl:h-[125px] flex justify-end'>
+                                <div className='w-[650px] h-full rounded-[10px] border-2  border-[red]'>
 
                                 </div>
                             </div>
