@@ -85,13 +85,16 @@ const Slider2: FC<SliderProps> = (SliderProps) => {
                         {SLIDER_IMAGES?.map((image: any, index: any) => (
                             <SwiperSlide key={index}>
                                 <div className='w-full border-2 border-[red]'>
-                                    <div className='w-[665px] h-[211px] flex'>
+                                    <div className='w-full flex'>
                                         <div className='w-[211px] h-[211px] relative'>
                                             <Image src={image.img} alt='dentfix' fill />
                                         </div>
                                         <div className='h-full'>
                                             <div className='text-white text-[18px] font-bold px-[15px]'>{image.name}</div>
                                             <div className='relative w-[92px] h-[15px] mx-[15px] mt-[10px]'><Image src={STARS} alt='dentfix' fill/></div>
+                                            <div className='w-[431px] text-white px-5 mt-[20px]'>
+                                                {image.content}
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

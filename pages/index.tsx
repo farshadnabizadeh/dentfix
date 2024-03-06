@@ -88,7 +88,7 @@ const Index = () => {
             <div className='w-[1380px] h-full'>
               <div className='w-full text-center text-white text-[34px] font-bold mt-[70px]'>Patient Testiomials</div>
               <div className='w-full'>
-                <Slider2 left={'left-0'} right={'right-0'}/>
+                <Slider2 left={'left-0'} right={'right-0'} />
               </div>
             </div>
           </div>
