@@ -36,7 +36,7 @@ const Slider: FC<SliderProps> = (SliderProps) => {
         },
     ]
     return (
-        <div className='w-full h-full relative border-2 border-[red]'>
+        <div className='w-full h-full relative'>
             <div className={`absolute top-0 ${SliderProps.left} h-full z-30`}>
                 <div className="swiper-button-prev-custom flex h-full w-full items-center" role="button">
                     <Image width={20} src={PREVIOUSBTN} alt="PREVIOUSBTN" />
@@ -47,11 +47,11 @@ const Slider: FC<SliderProps> = (SliderProps) => {
                     <Image width={20} src={NEXTBTN} alt="NEXTBTN" />
                 </div>
             </div>
-            <div className='absolute top-0 left-0 w-full h-full flex justify-center'>
-                <div className='w-[90%] 2xl:w-[93%] h-[500px] border-2 border-[#fff]'>
+            <div className='absolute top-[40px] left-0 w-full h-full flex justify-center'>
+                <div className='w-[90%]'>
                     <Swiper
                         modules={[Navigation, Pagination]}
-                        spaceBetween={50}
+                        spaceBetween={30}
                         slidesPerView={3}
                         navigation={{
                             nextEl: '.swiper-button-next-custom',
@@ -61,7 +61,7 @@ const Slider: FC<SliderProps> = (SliderProps) => {
                     >
                         {SLIDER_IMAGES?.map((image: any, index: any) => (
                             <SwiperSlide key={index}>
-                                <div className='w-[400px] h-[462px] relative'>
+                                <div className='w-[390px] h-[462px] relative'>
                                     <Image src={image.img} alt='dentfix' fill />
                                 </div>
                             </SwiperSlide>
