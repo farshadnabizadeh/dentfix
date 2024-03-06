@@ -11,6 +11,8 @@ import Slider from '@/components/Slider/Slider';
 import Button from '@/components/Button/Button';
 import Slider2 from '@/components/Slider/Slider2';
 import PossibleDentalTreatments from '@/components/PossibleDentalTreatments/PossibleDentalTreatments';
+import StartYourDental from '@/components/Startyourdental/StartYourDental';
+import HollywoodSmile from '@/components/HollywoodSmile/HollywoodSmile';
 const Index = () => {
   const [isClient, setIsClient] = useState(false);
   const { height, width } = useWindowDimensions();
@@ -97,6 +99,12 @@ const Index = () => {
       </section>
       <section className='w-full absolute top-[2950px] z-30'>
         <PossibleDentalTreatments />
+      </section>
+      <section className='w-full absolute top-[3990px] z-30'>
+        <StartYourDental />
+      </section>
+      <section className='w-full absolute top-[4300px] z-30'>
+        <HollywoodSmile />
       </section>
     </main>
   );
