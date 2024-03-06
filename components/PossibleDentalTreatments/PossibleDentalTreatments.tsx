@@ -21,9 +21,15 @@ const PossibleDentalTreatments = () => {
                                 </div>
                                 <div className='w-[510px] h-full absolute z-10'>
                                     <div className='absolute top-0 right-0 w-[180px] h-[190px] flex justify-center items-center'>
-                                        <Image src={Rosette} alt='dentfix' fill/>
+                                        <Image src={Rosette} alt='dentfix' fill />
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                        <div className='w-full h-full absolute z-10 flex justify-end'>
+                            <div className='w-full h-full relative border-2 border-[red]'>
+                                <div className='text-[34px] text-[#114B9B] font-bold'>Possible Dental Treatments</div>
+                                <div><span className='text-[#114B9B] text-[34px]'>in a</span><span className='text-[#30A1E8] mx-2 text-[34px] font-bold'>Hollywood Smile</span></div>
                             </div>
                         </div>
                     </div>
