@@ -9,6 +9,7 @@ import Image from 'next/image';
 import Features from '@/components/Features/Features';
 import Slider from '@/components/Slider/Slider';
 import Button from '@/components/Button/Button';
+import Slider2 from '@/components/Slider/Slider2';
 const Index = () => {
   const [isClient, setIsClient] = useState(false);
   const { height, width } = useWindowDimensions();
@@ -87,7 +88,7 @@ const Index = () => {
             <div className='w-[1380px] h-full'>
               <div className='w-full text-center text-white text-[34px] font-bold mt-[70px]'>Patient Testiomials</div>
               <div className='w-full'>
-{/*  */}
+                <Slider2 left={'left-0'} right={'right-0'} />
               </div>
             </div>
           </div>
