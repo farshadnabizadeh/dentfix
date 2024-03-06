@@ -34,22 +34,22 @@ const PossibleDentalTreatments = () => {
                         </div>
                         <div className='w-[750px] mt-[50px] 2xl:mt-[30px] 2xl:w-[790px] top-[100px] absolute z-40'>
                             <div className='w-full h-[100px] 2xl:h-[125px] flex justify-start'>
-                                <div className='w-[650px] h-full rounded-[10px] bg-[#EDF8FF]'>
+                                <div className='w-[650px] h-full rounded-[10px] bg-[#EDF8FF] border-[#9BD9FF] border-2'>
 
                                 </div>
                             </div>
-                            <div className='w-full h-[110px] mt-[38px] 2xl:h-[125px] flex justify-end'>
-                                <div className='w-[650px] h-full rounded-[10px] bg-[#EDF8FF] '>
+                            <div className='w-full h-[110px] mt-[30px] 2xl:h-[125px] flex justify-end'>
+                                <div className='w-[650px] h-full rounded-[10px] bg-[#EDF8FF] border-[#9BD9FF] border-2'>
 
                                 </div>
                             </div>
-                            <div className='w-full h-[110px] mt-[38px] 2xl:h-[125px] flex justify-start'>
-                                <div className='w-[650px] h-full rounded-[10px] bg-[#EDF8FF]'>
+                            <div className='w-full h-[110px] mt-[30px] 2xl:h-[125px] flex justify-start'>
+                                <div className='w-[650px] h-full rounded-[10px] bg-[#EDF8FF] border-[#9BD9FF] border-2'>
 
                                 </div>
                             </div>
-                            <div className='w-full h-[110px] mt-[38px] 2xl:h-[125px] flex justify-end'>
-                                <div className='w-[650px] h-full rounded-[10px] bg-[#EDF8FF] '>
+                            <div className='w-full h-[110px] mt-[30px] 2xl:h-[125px] flex justify-end'>
+                                <div className='w-[650px] h-full rounded-[10px] bg-[#EDF8FF] border-[#9BD9FF] border-2'>
 
                                 </div>
                             </div>
