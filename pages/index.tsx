@@ -3,6 +3,7 @@ import useWindowDimensions from '@/hooks/useWindowDimensions';
 import Hero from '@/components/Hero/Hero';
 import Brands from '@/components/Brand/Brands';
 import ContactUs from '@/components/ContactUs/ContactUs';
+import Wallpaper from '@/components/Wallpaper/Wallpaper';
 const Index = () => {
   const [isClient, setIsClient] = useState(false);
   const { height, width } = useWindowDimensions();
@@ -25,11 +26,18 @@ const Index = () => {
         <div className='w-full flex justify-center'>
           <div className='w-full flex justify-center'>
             <div className='w-[1440px] flex justify-center'>
-              <div className='w-[50%]'>
-                <Brands />
+              <div className='w-[50%] relative'>
+                <div className='w-full'>
+                  <Brands />
+                </div>
+                <div className='w-full absolute bottom-0'>
+                  <div className='w-full'>
+                    <Wallpaper />
+                  </div>
+                </div>
               </div>
               <div className='w-[50%]'>
-                <ContactUs/>
+                <ContactUs />
               </div>
             </div>
           </div>
