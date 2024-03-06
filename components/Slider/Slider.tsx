@@ -21,7 +21,6 @@ interface SliderProps {
     left?: string,
     right?: string,
     top?: string,
-    SLIDER_IMAGES?: any
 }
 const Slider: FC<SliderProps> = (SliderProps) => {
     const SLIDER_IMAGES = [
@@ -34,16 +33,19 @@ const Slider: FC<SliderProps> = (SliderProps) => {
         {
             img: BANER3,
         },
+        {
+            img: BANER2,
+        },
     ]
     return (
         <div className='w-full h-full relative'>
-            <div className={`absolute top-0 ${SliderProps.left} h-full z-30`}>
-                <div className="swiper-button-prev-custom flex h-full w-full items-center" role="button">
+            <div className={`absolute flex items-center top-0 ${SliderProps.left} h-[462px] z-30`}>
+                <div className="swiper-button-prev-custom flex w-[50px] items-center" role="button">
                     <Image width={20} src={PREVIOUSBTN} alt="PREVIOUSBTN" />
                 </div>
             </div>
-            <div className={`absolute top-0 ${SliderProps.right} h-full z-30`}>
-                <div className="swiper-button-next-custom flex h-full w-full items-center justify-end" role="button">
+            <div className={`absolute top-0 flex items-center ${SliderProps.right} h-[462px] z-30`}>
+                <div className="swiper-button-next-custom flex w-[50px] items-center justify-end" role="button">
                     <Image width={20} src={NEXTBTN} alt="NEXTBTN" />
                 </div>
             </div>
