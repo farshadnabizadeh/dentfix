@@ -54,9 +54,12 @@ const Index = () => {
           </div>
         </div>
         <div className='w-full flex justify-center'>
-          <div className='w-[1440px] h-[500px]'>
+          <div className='w-[1440px]'>
             <div className='w-[1380px] h-full'>
-              <Slider />
+              <div className='w-full text-center text-white text-[34px] font-bold mt-[70px]'>Before & After</div>
+              <div className='w-full'>
+                <Slider />
+              </div>
             </div>
           </div>
         </div>
