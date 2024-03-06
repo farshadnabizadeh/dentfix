@@ -26,23 +26,35 @@ const Slider2: FC<SliderProps> = (SliderProps) => {
     const SLIDER_IMAGES = [
         {
             img: Baner1,
-            name:'Olga R.',
-            signature:'Hollywood Smile Veneers',
+            name: 'Olga R.',
+            signature: 'Hollywood Smile Veneers',
+            content: `I had the honor of having the friendliest, most compassionate, professional people I have ever met to assist me with my dental issues. I might be the only person on earth who who plans to return to Dentfix just to see the staff.
+            The service was just as awesome and my new smile is evenore fabulous than I anticipated.`
         },
         {
             img: Baner2,
-            name:'Vanda D.',
-            signature:'Hollywood Smile Veneers',
+            name: 'Vanda D.',
+            signature: 'Hollywood Smile Zirconium',
+            content: `Went to Dentfix Oct 23 for start of dental work .
+            11 extractions 6 implants and all on 6 . The doctors performing the treatment were lovely very experienced at the job . The clinic very clean, I had temporary denture which looked amazing for a temp and Jan 24 for final fitting .
+            I’m so pleased with my teeth finally I can smile properly…
+            thank you.`
         },
         {
             img: Baner1,
-            name:'Olga R.',
-            signature:'Hollywood Smile Veneers',
+            name: 'Olga R.',
+            signature: 'Hollywood Smile Veneers',
+            content: `I had the honor of having the friendliest, most compassionate, professional people I have ever met to assist me with my dental issues. I might be the only person on earth who who plans to return to Dentfix just to see the staff.
+            The service was just as awesome and my new smile is evenore fabulous than I anticipated.`
         },
         {
             img: Baner2,
-            name:'Vanda D.',
-            signature:'Hollywood Smile Veneers',
+            name: 'Vanda D.',
+            signature: 'Hollywood Smile Zirconium',
+            content: `Went to Dentfix Oct 23 for start of dental work .
+            11 extractions 6 implants and all on 6 . The doctors performing the treatment were lovely very experienced at the job . The clinic very clean, I had temporary denture which looked amazing for a temp and Jan 24 for final fitting .
+            I’m so pleased with my teeth finally I can smile properly…
+            thank you.`
         },
     ]
     return (
