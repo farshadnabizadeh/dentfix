@@ -59,26 +59,38 @@ const Index = () => {
             <div className='w-[1380px] h-full'>
               <div className='w-full text-center text-white text-[34px] font-bold mt-[70px]'>Before & After</div>
               <div className='w-full'>
-                <Slider left={'left-0'} right={'right-0'}/>
+                <Slider left={'left-0'} right={'right-0'} />
               </div>
             </div>
           </div>
         </div>
         <div className='w-full flex justify-center'>
           <div className='w-[1440px]'>
-            <div className='w-[1380px] translate-y-[620px]'>
+            <div className='w-[1380px] translate-y-[530px]'>
               <div className='w-full flex justify-center'>
                 <div className='w-[500px] h-[48px] relative'>
-                  <Button Title={'Start My Journey Today!'}/>
+                  <Button Title={'Start My Journey Today!'} />
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section className='w-full h-[1285px] absolute top-[1300px] z-0'>
+      <section className='w-full h-[1285px] absolute top-[1200px] z-0'>
         <div className='w-full h-full relative'>
           <Image src={Shape} alt="dentfix" fill />
+        </div>
+      </section>
+      <section className='w-full absolute top-[2470px] z-30'>
+        <div className='w-full h-[502px] flex justify-center bg-[#114B9B]'>
+          <div className='w-[1440px]'>
+            <div className='w-[1380px] h-full'>
+              <div className='w-full text-center text-white text-[34px] font-bold mt-[70px]'>Patient Testiomials</div>
+              <div className='w-full'>
+{/*  */}
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>

@@ -1,3 +1,4 @@
+
 import React, { FC } from 'react';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -10,9 +11,8 @@ import 'swiper/css/pagination';
 
 import PREVIOUSBTN from '@/assets/png/previousbtn.png'
 import NEXTBTN from '@/assets/png/nextbtn.png'
-import BANER1 from '@/assets/png/Group 17.png';
-import BANER2 from '@/assets/png/Group 18.png';
-import BANER3 from '@/assets/png/Group 108.png';
+import Baner1 from '@/assets/png/slider2img1.png';
+import Baner2 from '@/assets/png/slider2img2.png';
 interface SliderProps {
     slidesPerView?: number,
     height?: string,
@@ -22,19 +22,27 @@ interface SliderProps {
     right?: string,
     top?: string,
 }
-const Slider: FC<SliderProps> = (SliderProps) => {
+const Slider2: FC<SliderProps> = (SliderProps) => {
     const SLIDER_IMAGES = [
         {
-            img: BANER2,
+            img: Baner1,
+            name:'Olga R.',
+            signature:'Hollywood Smile Veneers',
         },
         {
-            img: BANER1,
+            img: Baner2,
+            name:'Vanda D.',
+            signature:'Hollywood Smile Veneers',
         },
         {
-            img: BANER3,
+            img: Baner1,
+            name:'Olga R.',
+            signature:'Hollywood Smile Veneers',
         },
         {
-            img: BANER2,
+            img: Baner2,
+            name:'Vanda D.',
+            signature:'Hollywood Smile Veneers',
         },
     ]
     return (
@@ -75,4 +83,5 @@ const Slider: FC<SliderProps> = (SliderProps) => {
     );
 }
 
-export default Slider;
+export default Slider2;
+
