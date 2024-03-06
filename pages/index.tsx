@@ -87,7 +87,7 @@ const Index = () => {
             <div className='w-[1380px] h-full'>
               <div className='w-full text-center text-white text-[34px] font-bold mt-[70px]'>Patient Testiomials</div>
               <div className='w-full'>
-
+{/*  */}
               </div>
             </div>
           </div>
