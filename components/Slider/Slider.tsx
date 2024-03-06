@@ -63,7 +63,7 @@ const Slider: FC<SliderProps> = (SliderProps) => {
                     >
                         {SLIDER_IMAGES?.map((image: any, index: any) => (
                             <SwiperSlide key={index}>
-                                <div className='w-[390px] h-[462px] relative'>
+                                <div className='w-[390px] h-[430px] relative'>
                                     <Image src={image.img} alt='dentfix' fill />
                                 </div>
                             </SwiperSlide>
