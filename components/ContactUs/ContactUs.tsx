@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Button from '../Button/Button';
 const ContactUs = () => {
   return (
     <>
@@ -23,6 +23,9 @@ const ContactUs = () => {
               </div>
               <div className='w-full h-[50px] mt-[14px]'>
                 <input type='email' placeholder='Email (Opsiyonel)' className='w-full  h-full bg-white rounded-[25px] text-center placeholder:text-[#D8F1FF] placeholder:text-[18px]' />
+              </div>
+              <div className='w-full h-[48px] mt-[20px] relative'>
+                <Button Title={'Get Started Today!'} />
               </div>
             </form>
           </div>
