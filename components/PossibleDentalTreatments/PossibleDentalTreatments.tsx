@@ -77,7 +77,7 @@ const PossibleDentalTreatments = () => {
                                                     <div><Image src={item.img} alt='dentfix' /></div>
                                                     <div><span className='text-[#114B9B] text-[22px] font-bold mx-[22px]'>{item.name}</span></div>
                                                 </div>
-                                                <div className='w-full px-[25px] mt-1'>
+                                                <div className='w-full px-[25px] mt-1 text-[#000]'>
                                                     {item.content}
                                                 </div>
                                             </div>
