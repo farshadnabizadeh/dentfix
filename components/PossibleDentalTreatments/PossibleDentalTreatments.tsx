@@ -3,6 +3,10 @@ import Image from 'next/image';
 import Shape2 from '@/assets/png/shape2.png';
 import GirlRightImage from '@/assets/png/girlRightImage.png';
 import Rosette from '@/assets/png/rosette.png';
+import Service1 from '@/assets/png/service1.png';
+import Service2 from '@/assets/png/Group 97.png';
+import Service3 from '@/assets/png/service3.png';
+import Service4 from '@/assets/png/service5.png';
 const PossibleDentalTreatments = () => {
     return (
         <>
@@ -35,7 +39,7 @@ const PossibleDentalTreatments = () => {
                         <div className='w-[750px] mt-[50px] 2xl:mt-[30px] 2xl:w-[790px] top-[100px] absolute z-40'>
                             <div className='w-full h-[100px] 2xl:h-[125px] flex justify-start'>
                                 <div className='w-[650px] h-full rounded-[10px] bg-[#EDF8FF] border-[#9BD9FF] border-2'>
-
+                                    <div className='w-full mt-[25px] px-[22px] border-2 border-[red]'></div>
                                 </div>
                             </div>
                             <div className='w-full h-[110px] mt-[30px] 2xl:h-[125px] flex justify-end'>
