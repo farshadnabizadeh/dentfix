@@ -13,6 +13,7 @@ import PREVIOUSBTN from '@/assets/png/previousbtn.png'
 import NEXTBTN from '@/assets/png/nextbtn.png'
 import Baner1 from '@/assets/png/slider2img1.png';
 import Baner2 from '@/assets/png/slider2img2.png';
+import STARS from '@/assets/png/starts.png';
 interface SliderProps {
     slidesPerView?: number,
     height?: string,
@@ -90,6 +91,7 @@ const Slider2: FC<SliderProps> = (SliderProps) => {
                                         </div>
                                         <div className='h-full'>
                                             <div className='text-white text-[18px] font-bold px-[15px]'>{image.name}</div>
+                                            <div className='relative w-[92px] h-[15px] mx-[15px] mt-[10px]'><Image src={STARS} alt='dentfix' fill/></div>
                                         </div>
                                     </div>
                                 </div>
