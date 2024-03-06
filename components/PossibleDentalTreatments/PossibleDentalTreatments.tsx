@@ -15,7 +15,7 @@ const PossibleDentalTreatments = () => {
                 <div className='w-full h-[733px] 2xl:h-[833px] absolute z-10 top-[200px] px-[50px] 2xl:px-[240px] flex justify-center'>
                     <div className='w-full h-full relative'>
                         <div className='w-full h-full absolute z-0 flex justify-end'>
-                            <div className='w-[610px] h-[633px] 2xl:w-[710px] 2xl:h-[733px] -translate-x-[100px] translate-y-[100px] 2xl:translate-y-[30px] 2xl:translate-x-0 relative'>
+                            <div className='w-[610px] h-[633px] 2xl:w-[710px] 2xl:h-[733px] -translate-x-[100px] translate-y-[50px] 2xl:translate-y-[30px] 2xl:translate-x-0 relative'>
                                 <div className='w-full h-full  absolute z-0'>
                                     <Image src={GirlRightImage} alt='dentfix' fill />
                                 </div>
