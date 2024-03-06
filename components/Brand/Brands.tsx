@@ -9,7 +9,7 @@ const Brands = () => {
             <ul className='w-full flex justify-between items-end px-[100px] 2xl:px-0'>
                 <li className='w-[100px] h-[50px] 2xl:w-[152px] 2xl:h-[80px] relative'><Image src={Brand1} alt='dentfix' fill /></li>
                 <li className='w-[130px] h-[30px] 2xl:w-[152px] 2xl:h-[50px] relative'><Image src={Brand2} alt='dentfix' fill /></li>
-                <li className='w-[120px] h-[40px] 2xl:w-[152px] 2xl:h-[40px] relative'><Image className='translate-y-[10px]' src={Brand3} alt='dentfix' fill /></li>
+                <li className='w-[120px] h-[30px] 2xl:w-[152px] 2xl:h-[40px] relative'><Image className='translate-y-[10px]' src={Brand3} alt='dentfix' fill /></li>
             </ul>
         </div>
     );
