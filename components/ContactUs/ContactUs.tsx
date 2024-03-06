@@ -13,6 +13,13 @@ const ContactUs = () => {
           <div className='w-full text-center text-white text-[34px] font-bold mt-[8px]'>
             Get A Free Appointment
           </div>
+          <div className='w-full mt-[37px] flex justify-center'>
+            <form className='w-[500px]'>
+              <div className='w-full h-[50px]'>
+                <input type='text' placeholder='Full Name' className='w-full h-full bg-white rounded-[25px] text-center placeholder:text-[#D8F1FF] placeholder:text-[18px]' />
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </>
