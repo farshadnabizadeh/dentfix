@@ -12,7 +12,7 @@ const PossibleDentalTreatments = () => {
                         <Image src={Shape2} alt='dentfix' fill />
                     </div>
                 </div>
-                <div className='w-full h-[733px] absolute z-10 top-[200px] px-[240px] flex justify-center'>
+                <div className='w-full h-[733px] absolute z-10 top-[200px] px-[100px] 2xl:px-[240px] flex justify-center'>
                     <div className='w-full h-full relative'>
                         <div className='w-full h-full absolute z-0 flex justify-end'>
                             <div className='w-[710px] h-full relative'>
