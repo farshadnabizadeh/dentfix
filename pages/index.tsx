@@ -66,7 +66,7 @@ const Index = () => {
         </div>
         <div className='w-full flex justify-center'>
           <div className='w-[1440px]'>
-            <div className='w-[1380px] translate-y-[620px]'>
+            <div className='w-[1380px] translate-y-[530px]'>
               <div className='w-full flex justify-center'>
                 <div className='w-[500px] h-[48px] relative'>
                   <Button Title={'Start My Journey Today!'}/>
@@ -76,7 +76,7 @@ const Index = () => {
           </div>
         </div>
       </section>
-      <section className='w-full h-[1285px] absolute top-[1300px] z-0'>
+      <section className='w-full h-[1285px] absolute top-[1200px] z-0'>
         <div className='w-full h-full relative'>
           <Image src={Shape} alt="dentfix" fill />
         </div>
