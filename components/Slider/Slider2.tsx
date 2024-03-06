@@ -60,13 +60,13 @@ const Slider2: FC<SliderProps> = (SliderProps) => {
     ]
     return (
         <div className='w-full h-full relative'>
-            <div className={`absolute flex items-center top-0 ${SliderProps.left} h-[462px] z-30`}>
-                <div className="swiper-button-prev-custom flex w-[50px] items-center" role="button">
+            <div className={`absolute flex items-center top-0 ${SliderProps.left} h-[300px] z-30`}>
+                <div className="swiper-button-prev-custom-1 flex w-[50px] items-center" role="button">
                     <Image width={30} src={PREVIOUSBTN} alt="PREVIOUSBTN" />
                 </div>
             </div>
-            <div className={`absolute top-0 flex items-center ${SliderProps.right} h-[462px] z-30`}>
-                <div className="swiper-button-next-custom flex w-[50px] items-center justify-end" role="button">
+            <div className={`absolute top-0 flex items-center ${SliderProps.right} h-[300px] z-30`}>
+                <div className="swiper-button-next-custom-1 flex w-[50px] items-center justify-end" role="button">
                     <Image width={30} src={NEXTBTN} alt="NEXTBTN" />
                 </div>
             </div>
@@ -77,8 +77,8 @@ const Slider2: FC<SliderProps> = (SliderProps) => {
                         spaceBetween={30}
                         slidesPerView={2}
                         navigation={{
-                            nextEl: '.swiper-button-next-custom',
-                            prevEl: '.swiper-button-prev-custom',
+                            nextEl: '.swiper-button-next-custom-1',
+                            prevEl: '.swiper-button-prev-custom-1',
                         }}
                         pagination
                     >
