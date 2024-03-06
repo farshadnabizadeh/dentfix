@@ -26,10 +26,10 @@ interface SliderProps {
 const Slider: FC<SliderProps> = (SliderProps) => {
     const SLIDER_IMAGES = [
         {
-            img: BANER1,
+            img: BANER2,
         },
         {
-            img: BANER2,
+            img: BANER1,
         },
         {
             img: BANER3,
@@ -48,11 +48,11 @@ const Slider: FC<SliderProps> = (SliderProps) => {
                 </div>
             </div>
             <div className='absolute top-0 left-0 w-full h-full flex justify-center'>
-                <div className='w-[80%] 2xl:w-[93%] h-full border-2 border-[#fff]'>
+                <div className='w-[90%] 2xl:w-[93%] h-[500px] border-2 border-[#fff]'>
                     <Swiper
                         modules={[Navigation, Pagination]}
                         spaceBetween={50}
-                        slidesPerView={SliderProps.slidesPerView}
+                        slidesPerView={3}
                         navigation={{
                             nextEl: '.swiper-button-next-custom',
                             prevEl: '.swiper-button-prev-custom',
@@ -61,7 +61,9 @@ const Slider: FC<SliderProps> = (SliderProps) => {
                     >
                         {SLIDER_IMAGES?.map((image: any, index: any) => (
                             <SwiperSlide key={index}>
-
+                                <div className='w-[400px] h-[462px] relative'>
+                                    <Image src={image.img} alt='dentfix' fill />
+                                </div>
                             </SwiperSlide>
                         ))}
                     </Swiper>
