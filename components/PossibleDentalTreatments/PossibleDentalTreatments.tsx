@@ -8,6 +8,37 @@ import Service2 from '@/assets/png/Group 97.png';
 import Service3 from '@/assets/png/service3.png';
 import Service4 from '@/assets/png/service5.png';
 const PossibleDentalTreatments = () => {
+    const data = [
+        {
+            name: 'Dental Veneers',
+            img: Service1,
+            content: `Dental veneers are thin custom-made shells that are bonded to the front teeth 
+            designed for correcting aesthetic dental issues like chips, gaps or discoloration.`,
+            left:true,
+        },
+        {
+            name: 'Dental Crowns',
+            img: Service2,
+            content: `Dental crowns are tooth-shaped caps that are placed over the entire tooth
+            designed to restore broken, weak or worn-down teeth resulting
+            in an improved smile.`,
+            left:false,
+        },
+        {
+            name: 'Composite Bonding',
+            img: Service3,
+            content: `Composite bonding is a dental technique used to correct many aesthetic
+            problems from color to the shape of a tooth or to minimize gaps between teeth.`,
+            left:true,
+        },
+        {
+            name: 'Dental Implants',
+            img: Service4,
+            content: `Dental implants serve as durable artificial roots, providing a natural look and
+            feel while restoring the function and aesthetics of missing teeth.`,
+            left:false,
+        },
+    ]
     return (
         <>
             <div className='w-full relative'>
