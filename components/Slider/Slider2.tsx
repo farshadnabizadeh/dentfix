@@ -86,7 +86,7 @@ const Slider2: FC<SliderProps> = (SliderProps) => {
                             <SwiperSlide key={index}>
                                 <div className='w-full'>
                                     <div className='w-full flex'>
-                                        <div className='w-[211px] h-[211px] relative'>
+                                        <div className='w-[211px] h-[195px] relative'>
                                             <Image src={image.img} alt='dentfix' fill />
                                         </div>
                                         <div className='h-full'>
