@@ -4,7 +4,7 @@ import Button from '../Button/Button';
 import StartYourDentalImg from '@/assets/png/imgstartyourdental.png'
 const StartYourDental = () => {
     return (
-        <div className='w-full h-[270px] flex justify-center bg-gradient-to-r from-[#114B9B] to-[#002457]'>
+        <div className='w-full h-[255px] flex justify-center bg-gradient-to-r from-[#114B9B] to-[#002457]'>
             <div className='w-[1440px] h-full relative flex items-center'>
                 <div className='mr-[147px]'>
                     <div className='text-[25px] text-white font-bold'>Start your dental beauty journey in</div>
