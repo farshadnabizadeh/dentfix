@@ -76,8 +76,8 @@ const HollywoodSmile = () => {
                         price={'4.790'} 
                         labelName={'Premium PACKAGE'}
                         innerHeight={'h-[787px]'}
-                        outHeight={'h-[936px]'}
-                        btnContainerHeight={'h-[1000px]'}
+                        outHeight={'h-[925px]'}
+                        btnContainerHeight={'h-[990px]'}
                         priceTextColor={'text-[#2171CA]'}
                         PremiumCheck={true}/>
                     {/* END */}
