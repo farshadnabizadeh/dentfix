@@ -29,7 +29,7 @@ const HollywoodSmile = () => {
                                         </div>
                                         <div className='w-full translate-y-[230px]'>
                                             <div className='w-full flex justify-center'>
-                                                <div className='w-[300px] flex mt-[10px] border-2  border-[red]'>
+                                                <div className='w-[300px] flex mt-[10px]'>
                                                     <div>
                                                         <Image src={Tik} alt='dentfix' />
                                                     </div>
@@ -39,7 +39,7 @@ const HollywoodSmile = () => {
                                                 </div>
                                             </div>
                                             <div className='w-full flex justify-center mt-[18px]'>
-                                                <div className='w-[300px] flex border-2 border-[red]'>
+                                                <div className='w-[300px] flex'>
                                                     <div>
                                                         <Image src={Tik} alt='dentfix' />
                                                     </div>
@@ -49,7 +49,7 @@ const HollywoodSmile = () => {
                                                 </div>
                                             </div>
                                             <div className='w-full flex justify-center mt-[18px]'>
-                                                <div className='w-[300px] flex border-2 border-[red]'>
+                                                <div className='w-[300px] flex'>
                                                     <div>
                                                         <Image src={Tik} alt='dentfix' />
                                                     </div>
@@ -59,7 +59,7 @@ const HollywoodSmile = () => {
                                                 </div>
                                             </div>
                                             <div className='w-full flex justify-center mt-[18px]'>
-                                                <div className='w-[300px] flex border-2 border-[red]'>
+                                                <div className='w-[300px] flex'>
                                                     <div>
                                                         <Image src={Tik} alt='dentfix' />
                                                     </div>
@@ -69,7 +69,7 @@ const HollywoodSmile = () => {
                                                 </div>
                                             </div>
                                             <div className='w-full flex justify-center mt-[18px]'>
-                                                <div className='w-[300px] flex border-2 border-[red]'>
+                                                <div className='w-[300px] flex'>
                                                     <div>
                                                         <Image src={Tik} alt='dentfix' />
                                                     </div>
@@ -79,7 +79,7 @@ const HollywoodSmile = () => {
                                                 </div>
                                             </div>
                                             <div className='w-full flex justify-center mt-[18px]'>
-                                                <div className='w-[300px] flex border-2 border-[red]'>
+                                                <div className='w-[300px] flex'>
                                                     <div>
                                                         <Image src={Tik} alt='dentfix' />
                                                     </div>
@@ -89,7 +89,7 @@ const HollywoodSmile = () => {
                                                 </div>
                                             </div>
                                             <div className='w-full flex justify-center mt-[18px]'>
-                                                <div className='w-[300px] flex border-2 border-[red]'>
+                                                <div className='w-[300px] flex'>
                                                     <div>
                                                         <Image src={Tik} alt='dentfix' />
                                                     </div>
@@ -99,7 +99,7 @@ const HollywoodSmile = () => {
                                                 </div>
                                             </div>
                                             <div className='w-full flex justify-center mt-[18px]'>
-                                                <div className='w-[300px] flex border-2 border-[red]'>
+                                                <div className='w-[300px] flex'>
                                                     <div>
                                                         <Image src={Tik} alt='dentfix' />
                                                     </div>
@@ -109,7 +109,7 @@ const HollywoodSmile = () => {
                                                 </div>
                                             </div>
                                             <div className='w-full flex justify-center mt-[18px]'>
-                                                <div className='w-[300px] flex border-2 border-[red]'>
+                                                <div className='w-[300px] flex'>
                                                     <div>
                                                         <Image src={Tik} alt='dentfix' />
                                                     </div>
