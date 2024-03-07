@@ -33,8 +33,8 @@ const HollywoodSmile = () => {
                         <div className='w-full h-[900px] absolute z-30 top-0 border-2 border-[red]'>
 
                         </div>
-                        <div className='w-full absolute z-50 top-[396px]'>
-                            <div className='w-full h-[160px] absolute bottom-0'>
+                        <div className='w-full absolute z-50 top-[240px]'>
+                            <div className='w-full h-[160px] relative'>
                                 <Image src={PackageLable} alt='dentfix' />
                             </div>
                         </div>
