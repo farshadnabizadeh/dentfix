@@ -29,7 +29,7 @@ const HollywoodSmile = () => {
                                         </div>
                                         <div className='w-full translate-y-[230px]'>
                                             <div className='w-full flex justify-center'>
-                                                <div className='w-[300px] flex mt-[10px]'>
+                                                <div className='w-[300px] flex mt-[18px]'>
                                                     <div>
                                                         <Image src={Tik} alt='dentfix' />
                                                     </div>
@@ -44,7 +44,7 @@ const HollywoodSmile = () => {
                                                         <Image src={Tik} alt='dentfix' />
                                                     </div>
                                                     <div className='mx-1 text-[12px]'>
-                                                        20 Teeth Emax Layered Zirconium Crowns
+                                                        Consultation & Treatment Planning
                                                     </div>
                                                 </div>
                                             </div>
@@ -54,7 +54,7 @@ const HollywoodSmile = () => {
                                                         <Image src={Tik} alt='dentfix' />
                                                     </div>
                                                     <div className='mx-1 text-[12px]'>
-                                                        20 Teeth Emax Layered Zirconium Crowns
+                                                        X-Ray
                                                     </div>
                                                 </div>
                                             </div>
@@ -64,7 +64,7 @@ const HollywoodSmile = () => {
                                                         <Image src={Tik} alt='dentfix' />
                                                     </div>
                                                     <div className='mx-1 text-[12px]'>
-                                                        20 Teeth Emax Layered Zirconium Crowns
+                                                        CT Scan {'(If necessary)'}
                                                     </div>
                                                 </div>
                                             </div>
@@ -74,7 +74,7 @@ const HollywoodSmile = () => {
                                                         <Image src={Tik} alt='dentfix' />
                                                     </div>
                                                     <div className='mx-1 text-[12px]'>
-                                                        20 Teeth Emax Layered Zirconium Crowns
+                                                        Detartrage
                                                     </div>
                                                 </div>
                                             </div>
@@ -84,7 +84,7 @@ const HollywoodSmile = () => {
                                                         <Image src={Tik} alt='dentfix' />
                                                     </div>
                                                     <div className='mx-1 text-[12px]'>
-                                                        20 Teeth Emax Layered Zirconium Crowns
+                                                        Translator & Patient Care Services
                                                     </div>
                                                 </div>
                                             </div>
@@ -94,7 +94,7 @@ const HollywoodSmile = () => {
                                                         <Image src={Tik} alt='dentfix' />
                                                     </div>
                                                     <div className='mx-1 text-[12px]'>
-                                                        20 Teeth Emax Layered Zirconium Crowns
+                                                        A 7-Night Stay at the City Center {'(Taksim Square)'}
                                                     </div>
                                                 </div>
                                             </div>
@@ -104,7 +104,7 @@ const HollywoodSmile = () => {
                                                         <Image src={Tik} alt='dentfix' />
                                                     </div>
                                                     <div className='mx-1 text-[12px]'>
-                                                        20 Teeth Emax Layered Zirconium Crowns
+                                                        Free Accommodation for Accompanier
                                                     </div>
                                                 </div>
                                             </div>
@@ -114,7 +114,7 @@ const HollywoodSmile = () => {
                                                         <Image src={Tik} alt='dentfix' />
                                                     </div>
                                                     <div className='mx-1 text-[12px]'>
-                                                        20 Teeth Emax Layered Zirconium Crowns
+                                                        Transfers {'(Airport-Hotel-Clinic)'}
                                                     </div>
                                                 </div>
                                             </div>
