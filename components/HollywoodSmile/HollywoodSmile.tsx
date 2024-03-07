@@ -5,7 +5,7 @@ import PackageLable2 from '@/assets/png/package2.png';
 import PackageLable3 from '@/assets/png/premiumpacakge.png';
 const HollywoodSmile = () => {
     return (
-        <div className='w-full flex justify-center'>
+        <div className='w-full flex justify-center relative'>
             <div className='w-[1447px] h-[2034px]'>
                 <div className='w-full text-center text-[#114B9B] text-[34px] font-bold'>
                     Hollywood Smile Packages with Zirconium
@@ -24,13 +24,13 @@ const HollywoodSmile = () => {
                         { content: "Transfers (Airport-Hotel-Clinic)" }
                     ]}
                         image={PackageLable}
-                        price={'3.690'} 
+                        price={'3.690'}
                         labelName={'Economy Package'}
                         innerHeight={'h-[597px]'}
                         outHeight={'h-[736px]'}
                         btnContainerHeight={'h-[800px]'}
                         priceTextColor={'text-[#3DA4FF]'}
-                        PremiumCheck={false}/>
+                        PremiumCheck={false} />
                     {/* END */}
                     {/* START */}
                     <Package1 data={[
@@ -48,13 +48,13 @@ const HollywoodSmile = () => {
                         { content: "Transfers (Airport-Hotel-Clinic)" }
                     ]}
                         image={PackageLable2}
-                        price={'3.990'} 
+                        price={'3.990'}
                         labelName={'Comfort Package'}
                         innerHeight={'h-[697px]'}
                         outHeight={'h-[836px]'}
                         btnContainerHeight={'h-[900px]'}
                         priceTextColor={'text-[#2171CA]'}
-                        PremiumCheck={false}/>
+                        PremiumCheck={false} />
                     {/* END */}
                     {/* START */}
                     <Package1 data={[
@@ -73,14 +73,19 @@ const HollywoodSmile = () => {
                         { content: "Transfers (Airport-Hotel-Clinic)" }
                     ]}
                         image={PackageLable3}
-                        price={'4.790'} 
+                        price={'4.790'}
                         labelName={'Premium PACKAGE'}
                         innerHeight={'h-[787px]'}
                         outHeight={'h-[925px]'}
                         btnContainerHeight={'h-[990px]'}
                         priceTextColor={'text-[#2171CA]'}
-                        PremiumCheck={true}/>
+                        PremiumCheck={true} />
                     {/* END */}
+                </div>
+                <div className='mt-[1100px] w-full'>
+                    <div className='flex justify-center items-center w-full bg-[#30A1E8] h-[53px] rounded-[10px]'>
+                        <span className='text-white text-[34px] font-bold'>Hollywood Smile Packages with Ceramic Crowns & Laminate Veneers</span>
+                    </div>
                 </div>
             </div>
         </div>
