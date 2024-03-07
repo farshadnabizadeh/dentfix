@@ -123,8 +123,10 @@ const HollywoodSmile = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='w-full h-[900px] absolute z-30 top-0'>
+                        <div className='w-full h-[800px] absolute z-[999999] top-0'>
+                            <div className='w-[225px] h-[48px] absolute bottom-0 translate-x-[40px] border-2 border-[red]'>
 
+                            </div>
                         </div>
                         <div className='w-full absolute z-50 top-[240px]'>
                             <div className='w-full h-[160px] relative'>
