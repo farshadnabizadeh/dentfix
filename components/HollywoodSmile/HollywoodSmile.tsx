@@ -28,7 +28,8 @@ const HollywoodSmile = () => {
                         innerHeight={'h-[597px]'}
                         outHeight={'h-[736px]'}
                         btnContainerHeight={'h-[800px]'}
-                        priceTextColor={'text-[#3DA4FF]'}/>
+                        priceTextColor={'text-[#3DA4FF]'}
+                        PremiumCheck={false}/>
                     {/* END */}
                     {/* START */}
                     <Package1 data={[
@@ -51,7 +52,8 @@ const HollywoodSmile = () => {
                         innerHeight={'h-[697px]'}
                         outHeight={'h-[836px]'}
                         btnContainerHeight={'h-[900px]'}
-                        priceTextColor={'text-[#2171CA]'}/>
+                        priceTextColor={'text-[#2171CA]'}
+                        PremiumCheck={false}/>
                         
                     {/* END */}
                     {/* START */}

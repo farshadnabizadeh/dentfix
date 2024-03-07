@@ -12,8 +12,9 @@ interface PackageProps {
     outHeight?: any,
     btnContainerHeight?: any,
     priceTextColor?: any,
+    PremiumCheck?:any,
 }
-const Package1: FC<PackageProps> = ({ data, image, price, labelName, innerHeight, outHeight, btnContainerHeight, priceTextColor }) => {
+const Package1: FC<PackageProps> = ({ data, image, price, labelName, innerHeight, outHeight, btnContainerHeight, priceTextColor,PremiumCheck }) => {
     return (
         <div className='w-full mt-[38px] relative'>
             <div className='w-full h-full flex justify-center absolute top-0 z-10'>
