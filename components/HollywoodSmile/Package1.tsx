@@ -3,6 +3,7 @@ import Image from 'next/image';
 import PackageLable from '@/assets/png/package_label.png';
 import Tik from '@/assets/png/Group 122.png';
 import Button from '../Button/Button';
+import PremiumLogo from '@/assets/png/z9J2UR.tif.png'
 interface PackageProps {
     data?: any,
     image?: any,
@@ -12,9 +13,9 @@ interface PackageProps {
     outHeight?: any,
     btnContainerHeight?: any,
     priceTextColor?: any,
-    PremiumCheck?:any,
+    PremiumCheck?: any,
 }
-const Package1: FC<PackageProps> = ({ data, image, price, labelName, innerHeight, outHeight, btnContainerHeight, priceTextColor,PremiumCheck }) => {
+const Package1: FC<PackageProps> = ({ data, image, price, labelName, innerHeight, outHeight, btnContainerHeight, priceTextColor, PremiumCheck }) => {
     return (
         <div className='w-full mt-[38px] relative'>
             <div className='w-full h-full flex justify-center absolute top-0 z-10'>
@@ -33,6 +34,14 @@ const Package1: FC<PackageProps> = ({ data, image, price, labelName, innerHeight
                                     </div>
                                 </div>
                             </div>
+                            {
+                                PremiumCheck && <div className='w-full h-[168px] absolute -top-[100px] left-0 z-10 flex justify-center'>
+                                    <div className='w-[201px] h-[70px]'>
+                                        <Image src={PremiumLogo} alt='dentfix' />
+                                    </div>
+                                </div>
+                            }
+
                             <div className='w-full translate-y-[230px]'>
                                 {
                                     data?.map((item: any, index: any) => (
