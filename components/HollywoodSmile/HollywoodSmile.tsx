@@ -1,6 +1,7 @@
 import React from 'react';
 import Package1 from './Package1';
 import PackageLable from '@/assets/png/package_label.png';
+import PackageLable2 from '@/assets/png/package2.png';
 const HollywoodSmile = () => {
     return (
         <div className='w-full flex justify-center'>
@@ -23,7 +24,9 @@ const HollywoodSmile = () => {
                     ]}
                         image={PackageLable}
                         price={'3.690'} 
-                        labelName={'Economy Package'}/>
+                        labelName={'Economy Package'}
+                        innerHeight={'h-[597px]'}
+                        outHeight={'h-[736px]'}/>
                     {/* END */}
                     {/* START */}
                     <Package1 data={[
@@ -37,11 +40,14 @@ const HollywoodSmile = () => {
                         { content: "Free Accommodation for Accompanier" },
                         { content: "Transfers (Airport-Hotel-Clinic)" }
                     ]}
-                        image={PackageLable}
-                        price={'3.990'} />
+                        image={PackageLable2}
+                        price={'3.990'} 
+                        labelName={'Comfort Package'}
+                        innerHeight={'h-[597px]'}
+                        outHeight={'h-[736px]'}/>
+                        
                     {/* END */}
                     {/* START */}
-                    <Package1 />
                     {/* END */}
                 </div>
             </div>
