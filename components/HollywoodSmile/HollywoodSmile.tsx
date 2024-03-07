@@ -1,5 +1,6 @@
 import React from 'react';
-
+import Image from 'next/image';
+import PackageLable from '@/assets/png/package_label.png'
 const HollywoodSmile = () => {
     return (
         <div className='w-full flex justify-center'>
@@ -30,13 +31,11 @@ const HollywoodSmile = () => {
                             </div>
                         </div>
                         <div className='w-full h-[900px] absolute z-30 top-0 border-2 border-[red]'>
-                            <div className='w-full absolute bottom-0'>
-                                welcome
-                            </div>
-                        </div>
-                        <div className='w-full absolute z-20 top-[260px]'>
-                            <div className='w-full'>
 
+                        </div>
+                        <div className='w-full absolute z-50 top-[396px]'>
+                            <div className='w-full h-[160px] absolute bottom-0'>
+                                <Image src={PackageLable} alt='dentfix' />
                             </div>
                         </div>
                     </div>
