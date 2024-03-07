@@ -9,7 +9,17 @@ const HollywoodSmile = () => {
                 </div>
                 <div className='w-full grid grid-cols-3 gap-[100px]'>
                     {/* START */}
-                    <Package1 />
+                    <Package1 data={[
+                        { content: "20 Teeth Emax Layered Zirconium Crowns" },
+                        { content: "Consultation & Treatment Planning" },
+                        { content: "X-Ray" },
+                        { content: "CT Scan (If necessary)" },
+                        { content: "Detartrage" },
+                        { content: "Translator & Patient Care Services" },
+                        { content: "A 7-Night Stay at the City Center (Taksim Square)" },
+                        { content: "Free Accommodation for Accompanier" },
+                        { content: "Transfers (Airport-Hotel-Clinic)" }
+                    ]} />
                     {/* END */}
                     {/* START */}
                     <Package1 />

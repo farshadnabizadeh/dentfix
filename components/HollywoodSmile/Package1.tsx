@@ -1,9 +1,13 @@
-import React from 'react';
+import React,{FC} from 'react';
 import Image from 'next/image';
 import PackageLable from '@/assets/png/package_label.png';
 import Tik from '@/assets/png/Group 122.png';
 import Button from '../Button/Button';
-const Package1 = () => {
+interface PackageProps{
+    data?:any,
+}
+const Package1:FC<PackageProps> = ({data}) => {
+    console.log({data})
     return (
         <div className='w-full mt-[38px] relative'>
             <div className='w-full h-full flex justify-center absolute top-0 z-10'>
@@ -23,96 +27,20 @@ const Package1 = () => {
                                 </div>
                             </div>
                             <div className='w-full translate-y-[230px]'>
-                                <div className='w-full flex justify-center'>
-                                    <div className='w-[300px] flex mt-[18px]'>
-                                        <div>
-                                            <Image src={Tik} alt='dentfix' />
-                                        </div>
-                                        <div className='mx-1 text-[12px]'>
-                                            20 Teeth Emax Layered Zirconium Crowns
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='w-full flex justify-center mt-[18px]'>
-                                    <div className='w-[300px] flex'>
-                                        <div>
-                                            <Image src={Tik} alt='dentfix' />
-                                        </div>
-                                        <div className='mx-1 text-[12px]'>
-                                            Consultation & Treatment Planning
+                                {
+                                    data?.map((item:any,index:any)=>(
+                                        <div className='w-full flex justify-center'>
+                                        <div className='w-[300px] flex mt-[18px]'>
+                                            <div>
+                                                <Image src={Tik} alt='dentfix' />
+                                            </div>
+                                            <div className='mx-1 text-[12px]'>
+                                                {item.content}
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div className='w-full flex justify-center mt-[18px]'>
-                                    <div className='w-[300px] flex'>
-                                        <div>
-                                            <Image src={Tik} alt='dentfix' />
-                                        </div>
-                                        <div className='mx-1 text-[12px]'>
-                                            X-Ray
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='w-full flex justify-center mt-[18px]'>
-                                    <div className='w-[300px] flex'>
-                                        <div>
-                                            <Image src={Tik} alt='dentfix' />
-                                        </div>
-                                        <div className='mx-1 text-[12px]'>
-                                            CT Scan {'(If necessary)'}
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='w-full flex justify-center mt-[18px]'>
-                                    <div className='w-[300px] flex'>
-                                        <div>
-                                            <Image src={Tik} alt='dentfix' />
-                                        </div>
-                                        <div className='mx-1 text-[12px]'>
-                                            Detartrage
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='w-full flex justify-center mt-[18px]'>
-                                    <div className='w-[300px] flex'>
-                                        <div>
-                                            <Image src={Tik} alt='dentfix' />
-                                        </div>
-                                        <div className='mx-1 text-[12px]'>
-                                            Translator & Patient Care Services
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='w-full flex justify-center mt-[18px]'>
-                                    <div className='w-[300px] flex'>
-                                        <div>
-                                            <Image src={Tik} alt='dentfix' />
-                                        </div>
-                                        <div className='mx-1 text-[12px]'>
-                                            A 7-Night Stay at the City Center {'(Taksim Square)'}
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='w-full flex justify-center mt-[18px]'>
-                                    <div className='w-[300px] flex'>
-                                        <div>
-                                            <Image src={Tik} alt='dentfix' />
-                                        </div>
-                                        <div className='mx-1 text-[12px]'>
-                                            Free Accommodation for Accompanier
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className='w-full flex justify-center mt-[18px]'>
-                                    <div className='w-[300px] flex'>
-                                        <div>
-                                            <Image src={Tik} alt='dentfix' />
-                                        </div>
-                                        <div className='mx-1 text-[12px]'>
-                                            Transfers {'(Airport-Hotel-Clinic)'}
-                                        </div>
-                                    </div>
-                                </div>
+                                    ))
+                                }
                             </div>
                         </div>
                     </div>
