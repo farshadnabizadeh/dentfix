@@ -115,9 +115,12 @@ const HollywoodSmile = () => {
                             { content: "X-Ray" },
                             { content: "CT Scan (If necessary)" },
                             { content: "Detartrage" },
-                            { content: "Translator & Patient Care Services" },
-                            { content: "A 7-Night Stay at the City Center (Taksim Square)" },
-                            { content: "Free Accommodation for Accompanier" },
+                            { content: "3 Teeth White Composite Fillings (if needed)" },
+                            { content: "3 Root Canal Treatments (if needed)" },
+                            { content: "Gingivectomy Laser (if needed)" },
+                            { content: "Translator & Patient Care Service" },
+                            { content: "A 8-Night Stay at the City Center (Taksim Square)" },
+                            { content: "Free accommodation for Accompanier" },
                             { content: "Transfers (Airport-Hotel-Clinic)" }
                         ]}
                             image={PackageLable2}
@@ -131,13 +134,13 @@ const HollywoodSmile = () => {
                         {/* END */}
                         {/* START */}
                         <Package1 data={[
-                            { content: "20 Teeth Emax Layered Zirconium Crowns" },
+                            { content: "20 Teeth Ceramic Crowns / Laminate veneers" },
                             { content: "Consultation & Treatment Planning" },
                             { content: "X-Ray" },
                             { content: "CT Scan (If necessary)" },
                             { content: "Detartrage" },
                             { content: "3 Teeth White Composite Fillings (if needed)" },
-                            { content: "3 Root Canal Treatments (if needed" },
+                            { content: "3 Root Canal Treatments (if needed)" },
                             { content: "Gingivectomy Laser (if needed)" },
                             { content: "Translator & Patient Care Service" },
                             { content: "Return (two ways) Flight Ticket (only for the patient)" },
