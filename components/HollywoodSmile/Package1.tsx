@@ -1,12 +1,14 @@
-import React,{FC} from 'react';
+import React, { FC } from 'react';
 import Image from 'next/image';
 import PackageLable from '@/assets/png/package_label.png';
 import Tik from '@/assets/png/Group 122.png';
 import Button from '../Button/Button';
-interface PackageProps{
-    data?:any,
+interface PackageProps {
+    data?: any,
+    image?: any,
+    price?: any,
 }
-const Package1:FC<PackageProps> = ({data}) => {
+const Package1: FC<PackageProps> = ({ data, image, price }) => {
     return (
         <div className='w-full mt-[38px] relative'>
             <div className='w-full h-full flex justify-center absolute top-0 z-10'>
@@ -17,7 +19,7 @@ const Package1:FC<PackageProps> = ({data}) => {
                                 <div className='w-[168px] h-[168px] bg-gradient-to-b from-[#FCFDFF] to-[#D0E5FF] rounded-tr-[83px] rounded-bl-[83px] rounded-tl-[12px] rounded-br-[12px] flex justify-center items-center'>
                                     <div className='w-full'>
                                         <div className='w-full flex justify-center'>
-                                            <div className='text-[#3DA4FF] text-[39px] font-bold'>3.690€</div>
+                                            <div className='text-[#3DA4FF] text-[39px] font-bold'>{price}€</div>
                                         </div>
                                         <div className='w-full flex justify-center'>
                                             <div className='text-[#3DA4FF] text-[20px] -translate-y-[10px] font-semibold'>start from</div>
@@ -27,17 +29,19 @@ const Package1:FC<PackageProps> = ({data}) => {
                             </div>
                             <div className='w-full translate-y-[230px]'>
                                 {
-                                    data?.map((item:any,index:any)=>(
-                                        <div className='w-full flex justify-center'>
-                                        <div className='w-[300px] flex mt-[18px]'>
-                                            <div>
-                                                <Image src={Tik} alt='dentfix' />
+                                    data?.map((item: any, index: any) => (
+                                        <>
+                                            <div className='w-full flex justify-center'>
+                                                <div className='w-[300px] flex mt-[18px]'>
+                                                    <div>
+                                                        <Image src={Tik} alt='dentfix' />
+                                                    </div>
+                                                    <div className='mx-1 text-[12px]'>
+                                                        {item.content}
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div className='mx-1 text-[12px]'>
-                                                {item.content}
-                                            </div>
-                                        </div>
-                                    </div>
+                                        </>
                                     ))
                                 }
                             </div>
@@ -47,14 +51,14 @@ const Package1:FC<PackageProps> = ({data}) => {
             </div>
             <div className='w-full h-[800px] absolute z-[999999] top-0'>
                 <div className='w-[225px] h-[48px] absolute bottom-0 translate-x-[40px]'>
-                    <Button Title={'Choose Plan'} Color={'border-[#ffffff]'}/>
+                    <Button Title={'Choose Plan'} Color={'border-[#ffffff]'} />
                 </div>
             </div>
             <div className='w-full absolute z-50 top-[240px]'>
                 <div className='w-full h-[160px] relative'>
                     <div className='w-full h-[160px] absolute top-0 z-0'>
                         <div className='w-full h-full relative top-0'>
-                            <Image src={PackageLable} alt='dentfix' />
+                            <Image src={image} alt='dentfix' />
                         </div>
                     </div>
                     <div className='w-full h-[160px] flex justify-center items-center absolute top-0 z-10'>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Package1 from './Package1';
+import PackageLable from '@/assets/png/package_label.png';
 const HollywoodSmile = () => {
     return (
         <div className='w-full flex justify-center'>
@@ -19,7 +20,9 @@ const HollywoodSmile = () => {
                         { content: "A 7-Night Stay at the City Center (Taksim Square)" },
                         { content: "Free Accommodation for Accompanier" },
                         { content: "Transfers (Airport-Hotel-Clinic)" }
-                    ]} />
+                    ]} 
+                    image={PackageLable}
+                    price={'3.690'}/>
                     {/* END */}
                     {/* START */}
                     <Package1 />
