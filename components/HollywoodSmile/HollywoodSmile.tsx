@@ -2,6 +2,7 @@ import React from 'react';
 import Package1 from './Package1';
 import PackageLable from '@/assets/png/package_label.png';
 import PackageLable2 from '@/assets/png/package2.png';
+import PackageLable3 from '@/assets/png/premiumpacakge.png';
 const HollywoodSmile = () => {
     return (
         <div className='w-full flex justify-center'>
@@ -54,9 +55,31 @@ const HollywoodSmile = () => {
                         btnContainerHeight={'h-[900px]'}
                         priceTextColor={'text-[#2171CA]'}
                         PremiumCheck={false}/>
-                        
                     {/* END */}
                     {/* START */}
+                    <Package1 data={[
+                        { content: "20 Teeth Emax Layered Zirconium Crowns" },
+                        { content: "Consultation & Treatment Planning" },
+                        { content: "X-Ray" },
+                        { content: "CT Scan (If necessary)" },
+                        { content: "Detartrage" },
+                        { content: "3 Teeth White Composite Fillings (if needed)" },
+                        { content: "3 Root Canal Treatments (if needed" },
+                        { content: "Gingivectomy Laser (if needed)" },
+                        { content: "Translator & Patient Care Service" },
+                        { content: "Return (two ways) Flight Ticket (only for the patient)" },
+                        { content: "A 8-Night Stay at the City Center (Taksim Square)" },
+                        { content: "Free accommodation for Accompanier" },
+                        { content: "Transfers (Airport-Hotel-Clinic)" }
+                    ]}
+                        image={PackageLable3}
+                        price={'4.790'} 
+                        labelName={'Premium PACKAGE'}
+                        innerHeight={'h-[787px]'}
+                        outHeight={'h-[936px]'}
+                        btnContainerHeight={'h-[1000px]'}
+                        priceTextColor={'text-[#2171CA]'}
+                        PremiumCheck={true}/>
                     {/* END */}
                 </div>
             </div>
