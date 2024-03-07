@@ -87,77 +87,74 @@ const HollywoodSmile = () => {
                         <span className='text-white text-[34px] font-bold'>Hollywood Smile Packages with Ceramic Crowns & Laminate Veneers</span>
                     </div>
                     <div className='w-full grid grid-cols-3 gap-[100px]'>
-                    {/* START */}
-                    <Package1 data={[
-                        { content: "20 Teeth Ceramic Crowns / Laminate veneers" },
-                        { content: "Consultation & Treatment Planning" },
-                        { content: "X-Ray" },
-                        { content: "CT Scan (If necessary)" },
-                        { content: "Detartrage" },
-                        { content: "Translator & Patient Care Services" },
-                        { content: "A 7-Night Stay at the City Center (Taksim Square)" },
-                        { content: "Free Accommodation for Accompanier" },
-                        { content: "Transfers (Airport-Hotel-Clinic)" }
-                    ]}
-                        image={PackageLable}
-                        price={'5.090'}
-                        labelName={'Economy Package'}
-                        innerHeight={'h-[597px]'}
-                        outHeight={'h-[736px]'}
-                        btnContainerHeight={'h-[800px]'}
-                        priceTextColor={'text-[#3DA4FF]'}
-                        PremiumCheck={false} />
-                    {/* END */}
-                    {/* START */}
-                    <Package1 data={[
-                        { content: "20 Teeth Emax Layered Zirconium Crowns" },
-                        { content: "Consultation & Treatment Planning" },
-                        { content: "X-Ray" },
-                        { content: "CT Scan (If necessary)" },
-                        { content: "Detartrage" },
-                        { content: "3 Teeth White Composite Fillings (if needed)" },
-                        { content: "3 Root Canal Treatments (if needed" },
-                        { content: "Gingivectomy Laser (if needed)" },
-                        { content: "Translator & Patient Care Service" },
-                        { content: "A 8-Night Stay at the City Center (Taksim Square)" },
-                        { content: "Free accommodation for Accompanier" },
-                        { content: "Transfers (Airport-Hotel-Clinic)" }
-                    ]}
-                        image={PackageLable2}
-                        price={'3.990'}
-                        labelName={'Comfort Package'}
-                        innerHeight={'h-[697px]'}
-                        outHeight={'h-[836px]'}
-                        btnContainerHeight={'h-[900px]'}
-                        priceTextColor={'text-[#2171CA]'}
-                        PremiumCheck={false} />
-                    {/* END */}
-                    {/* START */}
-                    <Package1 data={[
-                        { content: "20 Teeth Emax Layered Zirconium Crowns" },
-                        { content: "Consultation & Treatment Planning" },
-                        { content: "X-Ray" },
-                        { content: "CT Scan (If necessary)" },
-                        { content: "Detartrage" },
-                        { content: "3 Teeth White Composite Fillings (if needed)" },
-                        { content: "3 Root Canal Treatments (if needed" },
-                        { content: "Gingivectomy Laser (if needed)" },
-                        { content: "Translator & Patient Care Service" },
-                        { content: "Return (two ways) Flight Ticket (only for the patient)" },
-                        { content: "A 8-Night Stay at the City Center (Taksim Square)" },
-                        { content: "Free accommodation for Accompanier" },
-                        { content: "Transfers (Airport-Hotel-Clinic)" }
-                    ]}
-                        image={PackageLable3}
-                        price={'4.790'}
-                        labelName={'Premium PACKAGE'}
-                        innerHeight={'h-[787px]'}
-                        outHeight={'h-[925px]'}
-                        btnContainerHeight={'h-[990px]'}
-                        priceTextColor={'text-[#2171CA]'}
-                        PremiumCheck={true} />
-                    {/* END */}
-                </div>
+                        {/* START */}
+                        <Package1 data={[
+                            { content: "20 Teeth Ceramic Crowns / Laminate veneers" },
+                            { content: "Consultation & Treatment Planning" },
+                            { content: "X-Ray" },
+                            { content: "CT Scan (If necessary)" },
+                            { content: "Detartrage" },
+                            { content: "Translator & Patient Care Services" },
+                            { content: "A 7-Night Stay at the City Center (Taksim Square)" },
+                            { content: "Free Accommodation for Accompanier" },
+                            { content: "Transfers (Airport-Hotel-Clinic)" }
+                        ]}
+                            image={PackageLable}
+                            price={'5.090'}
+                            labelName={'Economy Package'}
+                            innerHeight={'h-[597px]'}
+                            outHeight={'h-[736px]'}
+                            btnContainerHeight={'h-[800px]'}
+                            priceTextColor={'text-[#3DA4FF]'}
+                            PremiumCheck={false} />
+                        {/* END */}
+                        {/* START */}
+                        <Package1 data={[
+                            { content: "20 Teeth Ceramic Crowns / Laminate veneers" },
+                            { content: "Consultation & Treatment Planning" },
+                            { content: "X-Ray" },
+                            { content: "CT Scan (If necessary)" },
+                            { content: "Detartrage" },
+                            { content: "Translator & Patient Care Services" },
+                            { content: "A 7-Night Stay at the City Center (Taksim Square)" },
+                            { content: "Free Accommodation for Accompanier" },
+                            { content: "Transfers (Airport-Hotel-Clinic)" }
+                        ]}
+                            image={PackageLable2}
+                            price={'3.990'}
+                            labelName={'Comfort Package'}
+                            innerHeight={'h-[697px]'}
+                            outHeight={'h-[836px]'}
+                            btnContainerHeight={'h-[900px]'}
+                            priceTextColor={'text-[#2171CA]'}
+                            PremiumCheck={false} />
+                        {/* END */}
+                        {/* START */}
+                        <Package1 data={[
+                            { content: "20 Teeth Emax Layered Zirconium Crowns" },
+                            { content: "Consultation & Treatment Planning" },
+                            { content: "X-Ray" },
+                            { content: "CT Scan (If necessary)" },
+                            { content: "Detartrage" },
+                            { content: "3 Teeth White Composite Fillings (if needed)" },
+                            { content: "3 Root Canal Treatments (if needed" },
+                            { content: "Gingivectomy Laser (if needed)" },
+                            { content: "Translator & Patient Care Service" },
+                            { content: "Return (two ways) Flight Ticket (only for the patient)" },
+                            { content: "A 8-Night Stay at the City Center (Taksim Square)" },
+                            { content: "Free accommodation for Accompanier" },
+                            { content: "Transfers (Airport-Hotel-Clinic)" }
+                        ]}
+                            image={PackageLable3}
+                            price={'4.790'}
+                            labelName={'Premium PACKAGE'}
+                            innerHeight={'h-[787px]'}
+                            outHeight={'h-[925px]'}
+                            btnContainerHeight={'h-[990px]'}
+                            priceTextColor={'text-[#2171CA]'}
+                            PremiumCheck={true} />
+                        {/* END */}
+                    </div>
                 </div>
             </div>
         </div>
