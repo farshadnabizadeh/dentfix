@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import PackageLable from '@/assets/png/package_label.png'
+import PackageLable from '@/assets/png/package_label.png';
+import Tik from '@/assets/png/Group 122.png';
 const HollywoodSmile = () => {
     return (
         <div className='w-full flex justify-center'>
@@ -26,8 +27,97 @@ const HollywoodSmile = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className='w-full translate-y-[230px] border-2 border-[red]'>
-
+                                        <div className='w-full translate-y-[230px]'>
+                                            <div className='w-full flex justify-center'>
+                                                <div className='w-[300px] flex mt-[10px] border-2  border-[red]'>
+                                                    <div>
+                                                        <Image src={Tik} alt='dentfix' />
+                                                    </div>
+                                                    <div className='mx-1 text-[12px]'>
+                                                        20 Teeth Emax Layered Zirconium Crowns
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className='w-full flex justify-center mt-[18px]'>
+                                                <div className='w-[300px] flex border-2 border-[red]'>
+                                                    <div>
+                                                        <Image src={Tik} alt='dentfix' />
+                                                    </div>
+                                                    <div className='mx-1 text-[12px]'>
+                                                        20 Teeth Emax Layered Zirconium Crowns
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className='w-full flex justify-center mt-[18px]'>
+                                                <div className='w-[300px] flex border-2 border-[red]'>
+                                                    <div>
+                                                        <Image src={Tik} alt='dentfix' />
+                                                    </div>
+                                                    <div className='mx-1 text-[12px]'>
+                                                        20 Teeth Emax Layered Zirconium Crowns
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className='w-full flex justify-center mt-[18px]'>
+                                                <div className='w-[300px] flex border-2 border-[red]'>
+                                                    <div>
+                                                        <Image src={Tik} alt='dentfix' />
+                                                    </div>
+                                                    <div className='mx-1 text-[12px]'>
+                                                        20 Teeth Emax Layered Zirconium Crowns
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className='w-full flex justify-center mt-[18px]'>
+                                                <div className='w-[300px] flex border-2 border-[red]'>
+                                                    <div>
+                                                        <Image src={Tik} alt='dentfix' />
+                                                    </div>
+                                                    <div className='mx-1 text-[12px]'>
+                                                        20 Teeth Emax Layered Zirconium Crowns
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className='w-full flex justify-center mt-[18px]'>
+                                                <div className='w-[300px] flex border-2 border-[red]'>
+                                                    <div>
+                                                        <Image src={Tik} alt='dentfix' />
+                                                    </div>
+                                                    <div className='mx-1 text-[12px]'>
+                                                        20 Teeth Emax Layered Zirconium Crowns
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className='w-full flex justify-center mt-[18px]'>
+                                                <div className='w-[300px] flex border-2 border-[red]'>
+                                                    <div>
+                                                        <Image src={Tik} alt='dentfix' />
+                                                    </div>
+                                                    <div className='mx-1 text-[12px]'>
+                                                        20 Teeth Emax Layered Zirconium Crowns
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className='w-full flex justify-center mt-[18px]'>
+                                                <div className='w-[300px] flex border-2 border-[red]'>
+                                                    <div>
+                                                        <Image src={Tik} alt='dentfix' />
+                                                    </div>
+                                                    <div className='mx-1 text-[12px]'>
+                                                        20 Teeth Emax Layered Zirconium Crowns
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className='w-full flex justify-center mt-[18px]'>
+                                                <div className='w-[300px] flex border-2 border-[red]'>
+                                                    <div>
+                                                        <Image src={Tik} alt='dentfix' />
+                                                    </div>
+                                                    <div className='mx-1 text-[12px]'>
+                                                        20 Teeth Emax Layered Zirconium Crowns
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
