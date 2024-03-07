@@ -10,8 +10,10 @@ interface PackageProps {
     labelName?: any,
     innerHeight?: any,
     outHeight?: any,
+    btnContainerHeight?: any,
+    priceTextColor?: any,
 }
-const Package1: FC<PackageProps> = ({ data, image, price, labelName, innerHeight, outHeight }) => {
+const Package1: FC<PackageProps> = ({ data, image, price, labelName, innerHeight, outHeight, btnContainerHeight, priceTextColor }) => {
     return (
         <div className='w-full mt-[38px] relative'>
             <div className='w-full h-full flex justify-center absolute top-0 z-10'>
@@ -22,10 +24,10 @@ const Package1: FC<PackageProps> = ({ data, image, price, labelName, innerHeight
                                 <div className='w-[168px] h-[168px] bg-gradient-to-b from-[#FCFDFF] to-[#D0E5FF] rounded-tr-[83px] rounded-bl-[83px] rounded-tl-[12px] rounded-br-[12px] flex justify-center items-center'>
                                     <div className='w-full'>
                                         <div className='w-full flex justify-center'>
-                                            <div className='text-[#3DA4FF] text-[39px] font-bold'>{price}€</div>
+                                            <div className={`${priceTextColor} text-[39px] font-bold`}>{price}€</div>
                                         </div>
                                         <div className='w-full flex justify-center'>
-                                            <div className='text-[#3DA4FF] text-[20px] -translate-y-[10px] font-semibold'>start from</div>
+                                            <div className={`${priceTextColor} text-[20px] -translate-y-[10px] font-semibold`}>start from</div>
                                         </div>
                                     </div>
                                 </div>
@@ -52,7 +54,7 @@ const Package1: FC<PackageProps> = ({ data, image, price, labelName, innerHeight
                     </div>
                 </div>
             </div>
-            <div className='w-full h-[800px] absolute z-[999999] top-0'>
+            <div className={`w-full ${btnContainerHeight} absolute z-[999999] top-0`}>
                 <div className='w-[225px] h-[48px] absolute bottom-0 translate-x-[40px]'>
                     <Button Title={'Choose Plan'} Color={'border-[#ffffff]'} />
                 </div>
