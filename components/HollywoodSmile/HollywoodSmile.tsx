@@ -11,16 +11,12 @@ const HollywoodSmile = () => {
                     {/* START */}
                     <Package1 />
                     {/* END */}
-                    <div className='w-full mt-[38px]'>
-                        <div className='w-[350px] border-2 border-[red]'>
-
-                        </div>
-                    </div>
-                    <div className='w-full mt-[38px]'>
-                        <div className='w-[350px] border-2 border-[red]'>
-
-                        </div>
-                    </div>
+                    {/* START */}
+                    <Package1 />
+                    {/* END */}
+                    {/* START */}
+                    <Package1 />
+                    {/* END */}
                 </div>
             </div>
         </div>
