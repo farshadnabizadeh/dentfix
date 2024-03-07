@@ -89,7 +89,7 @@ const HollywoodSmile = () => {
                     <div className='w-full grid grid-cols-3 gap-[100px]'>
                     {/* START */}
                     <Package1 data={[
-                        { content: "20 Teeth Emax Layered Zirconium Crowns" },
+                        { content: "20 Teeth Ceramic Crowns / Laminate veneers" },
                         { content: "Consultation & Treatment Planning" },
                         { content: "X-Ray" },
                         { content: "CT Scan (If necessary)" },
@@ -100,7 +100,7 @@ const HollywoodSmile = () => {
                         { content: "Transfers (Airport-Hotel-Clinic)" }
                     ]}
                         image={PackageLable}
-                        price={'3.690'}
+                        price={'5.090'}
                         labelName={'Economy Package'}
                         innerHeight={'h-[597px]'}
                         outHeight={'h-[736px]'}
