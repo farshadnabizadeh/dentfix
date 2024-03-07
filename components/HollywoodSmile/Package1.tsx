@@ -120,7 +120,7 @@ const Package1 = () => {
             </div>
             <div className='w-full h-[800px] absolute z-[999999] top-0'>
                 <div className='w-[225px] h-[48px] absolute bottom-0 translate-x-[40px]'>
-                    <Button Title={'Choose Plan'}/>
+                    <Button Title={'Choose Plan'} Color={'border-[#ffffff]'}/>
                 </div>
             </div>
             <div className='w-full absolute z-50 top-[240px]'>
