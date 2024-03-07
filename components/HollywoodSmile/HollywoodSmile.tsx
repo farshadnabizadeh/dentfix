@@ -20,12 +20,25 @@ const HollywoodSmile = () => {
                         { content: "A 7-Night Stay at the City Center (Taksim Square)" },
                         { content: "Free Accommodation for Accompanier" },
                         { content: "Transfers (Airport-Hotel-Clinic)" }
-                    ]} 
-                    image={PackageLable}
-                    price={'3.690'}/>
+                    ]}
+                        image={PackageLable}
+                        price={'3.690'} 
+                        labelName={'Economy Package'}/>
                     {/* END */}
                     {/* START */}
-                    <Package1 />
+                    <Package1 data={[
+                        { content: "20 Teeth Emax Layered Zirconium Crowns" },
+                        { content: "Consultation & Treatment Planning" },
+                        { content: "X-Ray" },
+                        { content: "CT Scan (If necessary)" },
+                        { content: "Detartrage" },
+                        { content: "Translator & Patient Care Services" },
+                        { content: "A 7-Night Stay at the City Center (Taksim Square)" },
+                        { content: "Free Accommodation for Accompanier" },
+                        { content: "Transfers (Airport-Hotel-Clinic)" }
+                    ]}
+                        image={PackageLable}
+                        price={'3.990'} />
                     {/* END */}
                     {/* START */}
                     <Package1 />

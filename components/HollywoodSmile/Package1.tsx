@@ -7,8 +7,9 @@ interface PackageProps {
     data?: any,
     image?: any,
     price?: any,
+    labelName?:any,
 }
-const Package1: FC<PackageProps> = ({ data, image, price }) => {
+const Package1: FC<PackageProps> = ({ data, image, price,labelName }) => {
     return (
         <div className='w-full mt-[38px] relative'>
             <div className='w-full h-full flex justify-center absolute top-0 z-10'>
@@ -62,7 +63,7 @@ const Package1: FC<PackageProps> = ({ data, image, price }) => {
                         </div>
                     </div>
                     <div className='w-full h-[160px] flex justify-center items-center absolute top-0 z-10'>
-                        <span className='text-white text-[30px] font-bold'>Economy Package</span>
+                        <span className='text-white text-[30px] font-bold'>{labelName}</span>
                     </div>
                 </div>
             </div>
