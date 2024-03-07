@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import PackageLable from '@/assets/png/package_label.png';
 import Tik from '@/assets/png/Group 122.png';
+import Button from '../Button/Button';
 const Package1 = () => {
     return (
         <div className='w-full mt-[38px] relative'>
@@ -118,8 +119,8 @@ const Package1 = () => {
                 </div>
             </div>
             <div className='w-full h-[800px] absolute z-[999999] top-0'>
-                <div className='w-[225px] h-[48px] absolute bottom-0 translate-x-[40px] border-2 border-[red]'>
-
+                <div className='w-[225px] h-[48px] absolute bottom-0 translate-x-[40px]'>
+                    <Button Title={'Choose Plan'}/>
                 </div>
             </div>
             <div className='w-full absolute z-50 top-[240px]'>
