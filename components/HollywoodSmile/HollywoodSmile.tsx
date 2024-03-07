@@ -124,7 +124,7 @@ const HollywoodSmile = () => {
                             { content: "Transfers (Airport-Hotel-Clinic)" }
                         ]}
                             image={PackageLable2}
-                            price={'3.990'}
+                            price={'5.490'}
                             labelName={'Comfort Package'}
                             innerHeight={'h-[697px]'}
                             outHeight={'h-[836px]'}
@@ -149,7 +149,7 @@ const HollywoodSmile = () => {
                             { content: "Transfers (Airport-Hotel-Clinic)" }
                         ]}
                             image={PackageLable3}
-                            price={'4.790'}
+                            price={'6.600'}
                             labelName={'Premium PACKAGE'}
                             innerHeight={'h-[787px]'}
                             outHeight={'h-[925px]'}
