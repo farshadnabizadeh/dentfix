@@ -35,7 +35,14 @@ const HollywoodSmile = () => {
                         </div>
                         <div className='w-full absolute z-50 top-[240px]'>
                             <div className='w-full h-[160px] relative'>
-                                <Image src={PackageLable} alt='dentfix' />
+                                <div className='w-full h-[160px] absolute top-0 z-0'>
+                                    <div className='w-full h-full relative top-0'>
+                                        <Image src={PackageLable} alt='dentfix' />
+                                    </div>
+                                </div>
+                                <div className='w-full h-[160px] flex justify-center items-center absolute top-0 z-10'>
+                                    <span className='text-white text-[30px] font-bold'>Economy Package</span>
+                                </div>
                             </div>
                         </div>
                     </div>
