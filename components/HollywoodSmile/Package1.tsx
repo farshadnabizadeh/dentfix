@@ -7,7 +7,6 @@ interface PackageProps{
     data?:any,
 }
 const Package1:FC<PackageProps> = ({data}) => {
-    console.log({data})
     return (
         <div className='w-full mt-[38px] relative'>
             <div className='w-full h-full flex justify-center absolute top-0 z-10'>
